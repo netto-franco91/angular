@@ -124,10 +124,23 @@ wChartSeriesListDTO.getChartProperties().setInnerAxisY(true);
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setInnerAxisY2(true);
 ```
+- **tickValueAxisX (field type ArrayList)** - this attribute allows the user to tick values for axis X<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setTickValueAxisX(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
+```
+- **tickValueAxisY (field type ArrayList)** - this attribute allows the user to tick values for axis Y<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setTickValueAxisY(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
+```
+- **tickValueAxisY2 (field type ArrayList)** - this attribute allows the user to tick values for axis Y2<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
+```
 
-tickValueAxisX (ArrayList) - ex. wChartSeriesListDTO.getChartProperties().setTickValueAxisX(new ArrayList<>(Arrays.asList("0","10","15","30","40")))
-tickValueAxisY ArrayList() - ex. wChartSeriesListDTO.getChartProperties().setTickValueAxisY(new ArrayList<>(Arrays.asList("0","10","15","30","40")))
-tickValleyAxisY2 (ArrayList) - ex. wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")))
+
 showGridX (Boolean) ex. wChartSeriesListDTO.getChartProperties().setShowGridX(true)
 showGridY (Boolean) ex. wChartSeriesListDTO.getChartProperties().setShowGridY(true)
 linesGridX (WChartGridLineDTO) ex. wChartSeriesListDTO.getChartProperties().setLinesGridX(new ArrayList(Arrays.asList(new WChartGridLineDTO())));
