@@ -114,3 +114,21 @@ LOG("log")<br>
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisYType(AxisYTypeEnum.LINEAR);
 ```
+- **innerAxisY (field type Boolean)** - this attribute allows the user define if want to set the inner axis Y<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setInnerAxisY(true);
+```
+- **innerAxisY2 (field type Boolean)** - this attribute allows the user define if want to set the inner axis Y2<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setInnerAxisY2(true);
+```
+
+tickValueAxisX (ArrayList) - ex. wChartSeriesListDTO.getChartProperties().setTickValueAxisX(new ArrayList<>(Arrays.asList("0","10","15","30","40")))
+tickValueAxisY ArrayList() - ex. wChartSeriesListDTO.getChartProperties().setTickValueAxisY(new ArrayList<>(Arrays.asList("0","10","15","30","40")))
+tickValleyAxisY2 (ArrayList) - ex. wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")))
+showGridX (Boolean) ex. wChartSeriesListDTO.getChartProperties().setShowGridX(true)
+showGridY (Boolean) ex. wChartSeriesListDTO.getChartProperties().setShowGridY(true)
+linesGridX (WChartGridLineDTO) ex. wChartSeriesListDTO.getChartProperties().setLinesGridX(new ArrayList(Arrays.asList(new WChartGridLineDTO())));
+linesGridY (WChartGridLineDTO) ex. wChartSeriesListDTO.getChartProperties().setLinesGridY(new ArrayList(Arrays.asList(new WChartGridLineDTO())));
