@@ -18,9 +18,13 @@ wChartSeriesListDTO.getChartProperties().setMaxTargetValue("maxTargetValue");
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setMinTargetValue("minTargetValue");
 ```
+**ieTargetType (field type String) - this attribute allows the user to set the type of the target**<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setIeTargetType("ieTargetType");
+```
 
 
-minTargetValue (String) - ex. wChartSeriesListDTO.getChartProperties().setMinTargetValue("minTargetValue")
 ieTargetType (String) - ex. wChartSeriesListDTO.getChartProperties().setIeTargetType("ieTargetType")
 StringType (String) - ex. wChartSeriesListDTO.getChartProperties().setStringType("stringType")
 
