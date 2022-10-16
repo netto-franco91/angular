@@ -216,9 +216,3 @@ private void callArrayLines(wChartSeriesListDTO) {
         wChartSeriesListDTO.getChartProperties().setLinesGridX(arrayListLinesX);
         wChartSeriesListDTO.getChartProperties().setLinesGridY(arrayListLinesY);
 ```
-
-
-
-
-linesGridX (WChartGridLineDTO) ex. wChartSeriesListDTO.getChartProperties().setLinesGridX(new ArrayList(Arrays.asList(new WChartGridLineDTO())));
-linesGridY (WChartGridLineDTO) ex. wChartSeriesListDTO.getChartProperties().setLinesGridY(new ArrayList(Arrays.asList(new WChartGridLineDTO())));
