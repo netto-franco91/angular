@@ -46,7 +46,7 @@ scatter("D")<br>
 bubble("BB")<br>
 histogram("HST") 
 
- **In the backend the user can set the same as the example:**
+  **In the backend the user can set the same as the example:**
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setSerieType(SerieType.HST);
 ```
