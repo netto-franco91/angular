@@ -1,4 +1,4 @@
-# Properties provided by the component to configure the graph and its axes:<br><br>
+# Properties provided to configure the chart and its axes through the Backend::<br><br>
 
 **maxTargetField (field type String)** <br>
 #### :page_with_curl: Description
