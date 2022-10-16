@@ -1,11 +1,15 @@
 **maxTargetField (field type String) - this attribute allows the user to set the maximum target field**<br>
-**In the backend the user set like this exemple:**
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setMaxTargetField("maxTargetField");
+spline("LS");
+```<br>
+**minTargetField (field type String) - this attribute allows the user to set the maximum target field**<br>
+**In the backend the user can set the same as the example:**
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setMaxTargetField("maxTargetField");
 spline("LS");
 ```
-
-maxTargetField (String) - ex. wChartSeriesListDTO.getChartProperties().setMaxTargetField("maxTargetField")
 minTargetField (String) - ex. wChartSeriesListDTO.getChartProperties().setMinTargetField("minTargetField")
 maxTargetValue (String) - ex. wChartSeriesListDTO.getChartProperties().setMaxTargetValue("maxTargetValue")
 minTargetValue (String) - ex. wChartSeriesListDTO.getChartProperties().setMinTargetValue("minTargetValue")
