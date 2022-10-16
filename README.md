@@ -32,21 +32,21 @@ wChartSeriesListDTO.getChartProperties().setStringType("stringType");
 **There is an enum with the types available to the user: br/com/philips/tasy/dto/shared/wchart/SerieType.java**<br>
 | SerieType.java | 
 |:-----|
-| bar("B", "HB")   | 
-| pie("P")   |  
-| timeline("TL")   | 
-bar("B", "HB"),<br>
-pie("P"),<br>
-timeline("TL"),<br>
-gauge("G"),<br>
-line("L", "HL"),<br>
-area("A", "HA"),<br>
-spline("LS"),<br>
-donut("DN"),<br>
-halfdonut("HDN"),<br>
-scatter("D"),<br>
-bubble("BB"),<br>
-histogram("HST");<br>
+| bar("B", "HB") | 
+| pie("P")|  
+| timeline("TL") | 
+| bar("B", "HB") | 
+| pie("P") | 
+| timeline("TL") | 
+| gauge("G") | 
+| line("L", "HL") | 
+| area("A", "HA") | 
+| spline("LS") | 
+| donut("DN") | 
+| halfdonut("HDN") | 
+| scatter("D") | 
+| bubble("BB") | 
+| histogram("HST") | 
 **In the backend the user can set the same as the example:**
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setSerieType(SerieType.HST);
