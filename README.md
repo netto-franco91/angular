@@ -30,6 +30,11 @@ wChartSeriesListDTO.getChartProperties().setStringType("stringType");
 ```
 - **Type (field type SerieType) - this attribute allows the user to set the type of the chart serie**<br>
 **There is an enum with the types available to the user: br/com/philips/tasy/dto/shared/wchart/SerieType.java**<br>
+| Left |  Center  | Right |
+|:-----|:--------:|------:|
+| L0   | **bold** | $1600 |
+| L1   |  `code`  |   $12 |
+| L2   | _italic_ |    $1 |
 | SerieType.java | 
 |:-|
 | bar("B", "HB") | 
