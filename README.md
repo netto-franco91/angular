@@ -3,7 +3,7 @@
 ```java
 wChartSeriesListDTO.getChartProperties().setMaxTargetField("maxTargetField");
 ```
-**minTargetField (field type String) - this attribute allows the user to set the minimum target field**<br>
+- **minTargetField (field type String) - this attribute allows the user to set the minimum target field**<br>
 **In the backend the user can set the same as the example:**
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setMinTargetField("minTargetField");
