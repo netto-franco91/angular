@@ -164,19 +164,19 @@ wChartSeriesListDTO.getChartProperties().setShowGridY(true);
   WChartGridLineDTO wChartGridLineDTOX1 = new WChartGridLineDTO();
         wChartGridLineDTOX1.setCssClass("class1");
         wChartGridLineDTOX1.setPosition(GridAxesPositionTextEnum.END);
-        wChartGridLineDTOX1.setText("1232131");
+        wChartGridLineDTOX1.setText("LINE1");
         wChartGridLineDTOX1.setValue(0);
 
         WChartGridLineDTO wChartGridLineDTOX2 = new WChartGridLineDTO();
         wChartGridLineDTOX2.setCssClass("class1");
         wChartGridLineDTOX2.setPosition(GridAxesPositionTextEnum.END);
-        wChartGridLineDTOX2.setText("1232131");
+        wChartGridLineDTOX2.setText("LINE2");
         wChartGridLineDTOX2.setValue(5);
 
         WChartGridLineDTO wChartGridLineDTOX3 = new WChartGridLineDTO();
         wChartGridLineDTOX3.setCssClass("class1");
         wChartGridLineDTOX3.setPosition(GridAxesPositionTextEnum.END);
-        wChartGridLineDTOX3.setText("1232131");
+        wChartGridLineDTOX3.setText("LINE3");
         wChartGridLineDTOX3.setValue(10);
         
         arrayListLinesX.add(wChartGridLineDTOX1);
@@ -187,19 +187,19 @@ wChartSeriesListDTO.getChartProperties().setShowGridY(true);
     WChartGridLineDTO wChartGridLineDTOY1 = new WChartGridLineDTO();
         wChartGridLineDTOY1.setCssClass("class2");
         wChartGridLineDTOY1.setPosition(GridAxesPositionTextEnum.END);
-        wChartGridLineDTOY1.setText("1232131");
+        wChartGridLineDTOY1.setText("LINE1");
         wChartGridLineDTOY1.setValue(45);
         
         WChartGridLineDTO wChartGridLineDTOY2 = new WChartGridLineDTO();
         wChartGridLineDTOY2.setCssClass("class2");
         wChartGridLineDTOY2.setPosition(GridAxesPositionTextEnum.END);
-        wChartGridLineDTOY2.setText("1232131");
+        wChartGridLineDTOY2.setText("LINE2");
         wChartGridLineDTOY2.setValue(55);
 
         WChartGridLineDTO wChartGridLineDTOY3 = new WChartGridLineDTO();
         wChartGridLineDTOY3.setCssClass("class2");
         wChartGridLineDTOY3.setPosition(GridAxesPositionTextEnum.END);
-        wChartGridLineDTOY3.setText("1232131");
+        wChartGridLineDTOY3.setText("LINE3");
         wChartGridLineDTOY3.setValue(66);
         
         arrayListLinesY.add(wChartGridLineDTOY1);
