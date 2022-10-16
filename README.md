@@ -44,27 +44,25 @@ bubble("BB"),<br>
 histogram("HST");<br>
 **In the backend the user can set the same as the example:**
 ```java I'm tab B
-wChartSeriesListDTO.getChartProperties().setStringType("stringType");
+wChartSeriesListDTO.getChartProperties().setSerieType(SerieType.HST);
 ```
-
-
-
-
-Type (SerieType) - ex. wChartSeriesListDTO.getChartProperties().setSerieType(SerieType.HST)
-bar("B", "HB"),
-pie("P"),
-timeline("TL"),
-gauge("G"),
-line("L", "HL"),
-area("A", "HA"),
-spline("LS"),
-donut("DN"),
-halfdonut("HDN"),
-scatter("D"),
-bubble("BB"),
-histogram("HST");
-
-Title (String) - ex. wChartSeriesListDTO.getChartProperties().setTitle("title")
-axisXTitle (String) - ex. wChartSeriesListDTO.getChartProperties().setAxisXTitle("axisXTitle")
-axisYTitle (String) - ex. wChartSeriesListDTO.getChartProperties().setAxisYTitle("axisYTitle")
-axisY2Title (String) - ex. wChartSeriesListDTO.getChartProperties().setAxisY2Title("axisY2Title")
+**Title (field type String) - this attribute allows the user to set the title for the chart**<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setTitle("title");
+```
+**axisXTitle (field type String) - this attribute allows the user to set the title for the axis X**<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setAxisXTitle("axisXTitle");
+```
+**axisYTitle (field type String) - this attribute allows the user to set the title for the axis Y**<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setAxisYTitle("axisYTitle");
+```
+**axisY2Title (field type String) - this attribute allows the user to set the title for the axis Y2**<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setAxisY2Title("axisY2Title");
+```
