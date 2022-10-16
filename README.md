@@ -29,19 +29,19 @@ wChartSeriesListDTO.getChartProperties().setIeTargetType("ieTargetType");
 wChartSeriesListDTO.getChartProperties().setStringType("stringType");
 ```
 **Type (field type SerieType) - this attribute allows the user to set the type of the chart serie**<br>
-**There is an enum with the types available to the user:
-bar("B", "HB"),
-pie("P"),
-timeline("TL"),
-gauge("G"),
-line("L", "HL"),
-area("A", "HA"),
-spline("LS"),
-donut("DN"),
-halfdonut("HDN"),
-scatter("D"),
-bubble("BB"),
-histogram("HST");**<br>
+**There is an enum with the types available to the user:**<br>
+bar("B", "HB"),<br>
+pie("P"),<br>
+timeline("TL"),<br>
+gauge("G"),<br>
+line("L", "HL"),<br>
+area("A", "HA"),<br>
+spline("LS"),<br>
+donut("DN"),<br>
+halfdonut("HDN"),<br>
+scatter("D"),<br>
+bubble("BB"),<br>
+histogram("HST");<br>
 **In the backend the user can set the same as the example:**
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setStringType("stringType");
