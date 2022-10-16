@@ -71,7 +71,7 @@ wChartSeriesListDTO.getChartProperties().setAxisYTitle("axisYTitle");
 wChartSeriesListDTO.getChartProperties().setAxisY2Title("axisY2Title");
 ```
 
-- **axisXPositionTitle (field type AxisXPositionTextEnum)**<br>
+- **axisXPositionTitle (field type AxisXPositionTextEnum)** - this attribute allows the user to define the position of the X axis title<br>
   **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXPositionTextEnum.java**<br> 
 INNER_RIGHT("inner-right")<br>
 INNER_CENTER("inner-center")<br>
@@ -83,7 +83,7 @@ OUTER_LEFT("outer-left")<br>
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisXPositionTitle(AxisXPositionTextEnum.OUTER_RIGHT);
 ```
-- **axisYPositionTitle  (field type AxisYPositionTextEnum)**<br>
+- **axisYPositionTitle  (field type AxisYPositionTextEnum)** - this attribute allows the user to define the position of the Y axis title<br>
   **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYPositionTextEnum.class**<br> 
 INNER_TOP("inner-top")<br>
 INNER_MIDDLE("inner-middle")<br>
