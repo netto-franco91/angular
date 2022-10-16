@@ -1,26 +1,30 @@
 - **maxTargetField (field type String)** - this attribute allows the user to set the maximum target field<br>
-**In the backend the user can set this propiertie**
+**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java
 wChartSeriesListDTO.getChartProperties().setMaxTargetField("maxTargetField");
 ```
 - **minTargetField (field type String)** - this attribute allows the user to set the minimum target field<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setMinTargetField("minTargetField");
 ```
 - **maxTargetValue (field type String)** - this attribute allows the user to set the maximum target value<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setMaxTargetValue("maxTargetValue");
 ```
 - **minTargetValue (field type String)** - this attribute allows the user to set the minimum target value<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setMinTargetValue("minTargetValue");
 ```
 - **ieTargetType (field type String)** - this attribute allows the user to set the type of the target<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setIeTargetType("ieTargetType");
 ```
@@ -47,27 +51,32 @@ scatter("D")<br>
 bubble("BB")<br>
 histogram("HST") 
 
-  **In the backend the user can set the same as the example:**
+  **In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setSerieType(SerieType.HST);
 ```
 - **Title (field type String)** - this attribute allows the user to set the title for the chart<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTitle("title");
 ```
 - **axisXTitle (field type String)** - this attribute allows the user to set the title for the axis X<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisXTitle("axisXTitle");
 ```
 - **axisYTitle (field type String)** - this attribute allows the user to set the title for the axis Y<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisYTitle("axisYTitle");
 ```
 - **axisY2Title (field type String)** - this attribute allows the user to set the title for the axis Y2<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisY2Title("axisY2Title");
 ```
@@ -80,7 +89,8 @@ INNER_LEFT("inner-left")<br>
 OUTER_RIGHT("outer-right")<br>
 OUTER_CENTER("outer-center")<br>
 OUTER_LEFT("outer-left")<br>
- **In the backend the user can set the same as the example:**
+ **In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisXPositionTitle(AxisXPositionTextEnum.OUTER_RIGHT);
 ```
@@ -92,7 +102,8 @@ INNER_BOTTOM("inner-bottom")<br>
 OUTER_TOP("outer-top")<br>
 OUTER_MIDDLE("outer-middle")<br>
 OUTER_BOTTOM("outer-bottom")<br>
- **In the backend the user can set the same as the example:**
+ **In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisYPositionTitle(AxisYPositionTextEnum.OUTER_TOP);
 ```
@@ -101,7 +112,8 @@ wChartSeriesListDTO.getChartProperties().setAxisYPositionTitle(AxisYPositionText
 TIMESERIES("timeseries")<br>
 CATEGORY("category")<br>
 INDEXED("indexed")<br>
- **In the backend the user can set the same as the example:**
+ **In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisXType(AxisXTypeEnum.TIMESERIES);
 ```
@@ -111,53 +123,63 @@ LINEAR("linear")<br>
 TIME("time")<br>
 TIMESERIES("timeseries")<br>
 LOG("log")<br>
- **In the backend the user can set the same as the example:**
+ **In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisYType(AxisYTypeEnum.LINEAR);
 ```
 - **innerAxisY (field type Boolean)** - this attribute allows the user define if want to set the inner axis Y<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setInnerAxisY(true);
 ```
 - **innerAxisY2 (field type Boolean)** - this attribute allows the user define if want to set the inner axis Y2<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setInnerAxisY2(true);
 ```
 - **tickValueAxisX (field type ArrayList)** - this attribute allows the user to tick values for axis X<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTickValueAxisX(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
 - **tickValueAxisY (field type ArrayList)** - this attribute allows the user to tick values for axis Y<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
 - **tickValueAxisY2 (field type ArrayList)** - this attribute allows the user to tick values for axis Y2<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
 - **tickValueAxisY2 (field type ArrayList)** - this attribute allows the user to tick values for axis Y2<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
 - **showGridX (field type Boolean)** - this attribute allows the user define if want to show the grid´s at the axis X<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setShowGridX(true);
 ```
 - **showGridY (field type Boolean)** - this attribute allows the user define if want to show the grid´s at the axis Y<br>
-**In the backend the user can set the same as the example:**
+**In the backend the user can set this propierty**
+#### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setShowGridY(true);
 ```
 - **linesGridX (WChartGridLineDTO)** - this attribute allows the user define if want to set and show the lines at the axis X<br>
 - **linesGridY (WChartGridLineDTO)** - this attribute allows the user define if want to set and show the lines at the axis Y<br>
-**In the backend the user can create a method to fill X axis lines array and Y axis lines array like example:**
+**In the backend the user can create a method to fill X axis lines array and Y axis lines array**
+#### :pencil2: Example
 ```java I'm tab B
  private void fillArrayLines(ArrayList<WChartGridLineDTO> arrayListLinesX, ArrayList<WChartGridLineDTO> arrayListLinesY) {
   
@@ -208,7 +230,8 @@ wChartSeriesListDTO.getChartProperties().setShowGridY(true);
         arrayListLinesY.add(wChartGridLineDTOY3);
  };
 ```
-   **Then the user can call the fillArrayLines method like example:**<br>
+   **Then the user can call the fillArrayLines method**<br>
+#### :pencil2: Example
 ```java I'm tab B
 private void callArrayLines(wChartSeriesListDTO) {
         ArrayList<WChartGridLineDTO> arrayListLinesY = new ArrayList<>();
