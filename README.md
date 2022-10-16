@@ -1,3 +1,5 @@
+## Properties provided by the component to configure the graph and its axes:<br>
+
 **maxTargetField (field type String)** <br>
 #### :page_with_curl: Description
 this attribute allows the user to set the maximum target field<br>
