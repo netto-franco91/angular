@@ -159,7 +159,7 @@ wChartSeriesListDTO.getChartProperties().setShowGridY(true);
 **In the backend the user can create a method to fill X axis lines array and Y axis lines array like example:**
 ```java I'm tab B
  private void fillArrayLines(ArrayList<WChartGridLineDTO> arrayListLinesX, ArrayList<WChartGridLineDTO> arrayListLinesY) {
-  
+  // X Lines//
   WChartGridLineDTO wChartGridLineDTOX1 = new WChartGridLineDTO();
         wChartGridLineDTOX1.setCssClass("class1");
         wChartGridLineDTOX1.setPosition(GridAxesPositionTextEnum.END);
@@ -182,9 +182,8 @@ wChartSeriesListDTO.getChartProperties().setShowGridY(true);
         arrayListLinesX.add(wChartGridLineDTOX2);
         arrayListLinesX.add(wChartGridLineDTOX3);
         
-       ___________________________________________________________________________________________________________________________________________
-        
-        WChartGridLineDTO wChartGridLineDTOY1 = new WChartGridLineDTO();
+    // Y Lines// 
+    WChartGridLineDTO wChartGridLineDTOY1 = new WChartGridLineDTO();
         wChartGridLineDTOY1.setCssClass("class2");
         wChartGridLineDTOY1.setPosition(GridAxesPositionTextEnum.END);
         wChartGridLineDTOY1.setText("1232131");
