@@ -1,4 +1,6 @@
-- **maxTargetField (field type String)** - this attribute allows the user to set the maximum target field<br>
+- **maxTargetField (field type String)** <br>
+#### :page_with_curl: Description
+this attribute allows the user to set the maximum target field<br>
 **In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java
