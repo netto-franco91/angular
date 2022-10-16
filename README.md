@@ -66,3 +66,8 @@ wChartSeriesListDTO.getChartProperties().setAxisYTitle("axisYTitle");
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisY2Title("axisY2Title");
 ```
+| Left |  Center  | Right |
+|:-----|:--------:|------:|
+| L0   | **bold** | $1600 |
+| L1   |  `code`  |   $12 |
+| L2   | _italic_ |    $1 |
