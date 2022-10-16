@@ -217,15 +217,6 @@ this attribute allows the user to tick values for axis Y2<br>
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
 ----
-**tickValueAxisY2 (field type ArrayList)**<br>
-#### :page_with_curl: Description
-this attribute allows the user to tick values for axis Y2<br>
-<br>**In the backend the user can set this propierty**
-#### :pencil2: Example
-```java I'm tab B
-wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
-```
-----
 **showGridX (field type Boolean)**<br>
 #### :page_with_curl: Description
 this attribute allows the user define if want to show the grid´s at the axis X<br>
