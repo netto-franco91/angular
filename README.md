@@ -30,28 +30,21 @@ wChartSeriesListDTO.getChartProperties().setStringType("stringType");
 ```
 - **Type (field type SerieType) - this attribute allows the user to set the type of the chart serie**<br>
 **There is an enum with the types available to the user: br/com/philips/tasy/dto/shared/wchart/SerieType.java**<br>
-| Left |  Center  | Right |
-|:-----|:--------:|------:|
-| L0   | **bold** | $1600 |
-| L1   |  `code`  |   $12 |
-| L2   | _italic_ |    $1 |
-| SerieType.java | 
-|:-|
-| bar("B", "HB") | 
-| pie("P")|  
-| timeline("TL") | 
-| bar("B", "HB") | 
-| pie("P") | 
-| timeline("TL") | 
-| gauge("G") | 
-| line("L", "HL") | 
-| area("A", "HA") | 
-| spline("LS") | 
-| donut("DN") | 
-| halfdonut("HDN") | 
-| scatter("D") | 
-| bubble("BB") | 
-| histogram("HST") | 
+bar("B", "HB")<br>
+pie("P")<br>  
+timeline("TL")<br>
+bar("B", "HB")<br> 
+pie("P")<br> 
+timeline("TL")<br> 
+gauge("G")<br>
+line("L", "HL")<br> 
+area("A", "HA")<br> 
+spline("LS")<br> 
+donut("DN")<br> 
+halfdonut("HDN")<br> 
+scatter("D")<br> 
+bubble("BB")<br>
+histogram("HST") 
 
 - **In the backend the user can set the same as the example:**
 ```java I'm tab B
