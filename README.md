@@ -116,7 +116,7 @@ wChartSeriesListDTO.getChartProperties().setAxisY2Title("axisY2Title");
 **axisXPositionTitle (field type AxisXPositionTextEnum)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to define the position of the X axis title<br>
-  <br>**There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXPositionTextEnum.java**<br> 
+  <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXPositionTextEnum.java**<br> 
 INNER_RIGHT("inner-right")<br>
 INNER_CENTER("inner-center")<br>
 INNER_LEFT("inner-left")<br>
@@ -132,7 +132,7 @@ wChartSeriesListDTO.getChartProperties().setAxisXPositionTitle(AxisXPositionText
 **axisYPositionTitle  (field type AxisYPositionTextEnum)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to define the position of the Y axis title<br>
-  <br>**There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYPositionTextEnum.java**<br> 
+  <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYPositionTextEnum.java**<br> 
 INNER_TOP("inner-top")<br>
 INNER_MIDDLE("inner-middle")<br>
 INNER_BOTTOM("inner-bottom")<br>
@@ -148,7 +148,7 @@ wChartSeriesListDTO.getChartProperties().setAxisYPositionTitle(AxisYPositionText
 **axisXType  (field type AxisXType)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to define the type of the X axis<br>
-  <br>**There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXTypeEnum.java**<br> 
+  <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXTypeEnum.java**<br> 
 TIMESERIES("timeseries")<br>
 CATEGORY("category")<br>
 INDEXED("indexed")<br>
