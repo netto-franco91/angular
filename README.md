@@ -72,6 +72,3 @@ wChartSeriesListDTO.getChartProperties().setAxisYTitle("axisYTitle");
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisY2Title("axisY2Title");
 ```
-- Item Zed
-  - Nested Item # indented 2 spaces
-* Item Alt      # alternate bullet syntax
