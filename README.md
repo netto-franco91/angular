@@ -1,4 +1,4 @@
-**maxTargetField (String)**
+**maxTargetField (field type String) - this attribute is used to define maximum target field**
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setMaxTargetField("maxTargetField");
 spline("LS");
