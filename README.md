@@ -1,4 +1,4 @@
-- **maxTargetField (field type String)** <br>
+**maxTargetField (field type String)** <br>
 #### :page_with_curl: Description
 this attribute allows the user to set the maximum target field<br>
 <br>**In the backend the user can set this propierty**
@@ -7,7 +7,7 @@ this attribute allows the user to set the maximum target field<br>
 wChartSeriesListDTO.getChartProperties().setMaxTargetField("maxTargetField");
 ```
 ----
-- **minTargetField (field type String)**<br> 
+**minTargetField (field type String)**<br> 
 #### :page_with_curl: Description
 this attribute allows the user to set the minimum target field<br>
 <br>**In the backend the user can set this propierty**
@@ -16,7 +16,7 @@ this attribute allows the user to set the minimum target field<br>
 wChartSeriesListDTO.getChartProperties().setMinTargetField("minTargetField");
 ```
 ----
-- **maxTargetValue (field type String)**<br>
+**maxTargetValue (field type String)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the maximum target value<br>
 <br>**In the backend the user can set this propierty**
@@ -25,7 +25,7 @@ this attribute allows the user to set the maximum target value<br>
 wChartSeriesListDTO.getChartProperties().setMaxTargetValue("maxTargetValue");
 ```
 ----
-- **minTargetValue (field type String)**<br>
+**minTargetValue (field type String)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the minimum target value<br>
 <br>**In the backend the user can set this propierty**
@@ -34,7 +34,7 @@ this attribute allows the user to set the minimum target value<br>
 wChartSeriesListDTO.getChartProperties().setMinTargetValue("minTargetValue");
 ```
 ----
-- **ieTargetType (field type String)**<br>
+**ieTargetType (field type String)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the type of the target<br>
 <br>**In the backend the user can set this propierty**
@@ -43,7 +43,7 @@ this attribute allows the user to set the type of the target<br>
 wChartSeriesListDTO.getChartProperties().setIeTargetType("ieTargetType");
 ```
 ----
-- **StringType (field type String)**<br>
+**StringType (field type String)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the type of the string<br>
 <br>**In the backend the user can set the same as the example:**
@@ -51,7 +51,7 @@ this attribute allows the user to set the type of the string<br>
 wChartSeriesListDTO.getChartProperties().setStringType("stringType");
 ```
 ----
-- **Type (field type SerieType)**<br>
+**Type (field type SerieType)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the type of the chart serie<br>
 <br>**There is an enum with the types available to the user: br/com/philips/tasy/dto/shared/wchart/SerieType.java**<br>
@@ -77,7 +77,7 @@ histogram("HST")
 wChartSeriesListDTO.getChartProperties().setSerieType(SerieType.HST);
 ```
 ----
-- **Title (field type String)**<br>
+**Title (field type String)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the title for the chart<br>
 <br>**In the backend the user can set this propierty**
@@ -86,7 +86,7 @@ this attribute allows the user to set the title for the chart<br>
 wChartSeriesListDTO.getChartProperties().setTitle("title");
 ```
 ----
-- **axisXTitle (field type String)**<br>
+**axisXTitle (field type String)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the title for the axis X<br>
 <br>**In the backend the user can set this propierty**
@@ -95,7 +95,7 @@ this attribute allows the user to set the title for the axis X<br>
 wChartSeriesListDTO.getChartProperties().setAxisXTitle("axisXTitle");
 ```
 ----
-- **axisYTitle (field type String)**<br>
+**axisYTitle (field type String)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the title for the axis Y<br>
 <br>**In the backend the user can set this propierty**
@@ -104,7 +104,7 @@ this attribute allows the user to set the title for the axis Y<br>
 wChartSeriesListDTO.getChartProperties().setAxisYTitle("axisYTitle");
 ```
 ----
-- **axisY2Title (field type String)**<br>
+**axisY2Title (field type String)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the title for the axis Y2<br>
 <br>**In the backend the user can set this propierty**
@@ -113,7 +113,7 @@ this attribute allows the user to set the title for the axis Y2<br>
 wChartSeriesListDTO.getChartProperties().setAxisY2Title("axisY2Title");
 ```
 ----
-- **axisXPositionTitle (field type AxisXPositionTextEnum)**<br>
+**axisXPositionTitle (field type AxisXPositionTextEnum)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to define the position of the X axis title<br>
   <br>**There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXPositionTextEnum.java**<br> 
@@ -129,7 +129,7 @@ OUTER_LEFT("outer-left")<br>
 wChartSeriesListDTO.getChartProperties().setAxisXPositionTitle(AxisXPositionTextEnum.OUTER_RIGHT);
 ```
 ----
-- **axisYPositionTitle  (field type AxisYPositionTextEnum)**<br>
+**axisYPositionTitle  (field type AxisYPositionTextEnum)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to define the position of the Y axis title<br>
   <br>**There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYPositionTextEnum.java**<br> 
@@ -145,7 +145,7 @@ OUTER_BOTTOM("outer-bottom")<br>
 wChartSeriesListDTO.getChartProperties().setAxisYPositionTitle(AxisYPositionTextEnum.OUTER_TOP);
 ```
 ----
-- **axisXType  (field type AxisXType)**<br>
+**axisXType  (field type AxisXType)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to define the type of the X axis<br>
   <br>**There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXTypeEnum.java**<br> 
@@ -158,7 +158,7 @@ INDEXED("indexed")<br>
 wChartSeriesListDTO.getChartProperties().setAxisXType(AxisXTypeEnum.TIMESERIES);
 ```
 ----
-- **axisYType  (field type AxisYType)**<br>
+**axisYType  (field type AxisYType)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to define the type of the Y axis<br>
   <br>**There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYTypeEnum.java**<br> 
@@ -172,7 +172,7 @@ LOG("log")<br>
 wChartSeriesListDTO.getChartProperties().setAxisYType(AxisYTypeEnum.LINEAR);
 ```
 ----
-- **innerAxisY (field type Boolean)**<br>
+**innerAxisY (field type Boolean)**<br>
 #### :page_with_curl: Description
 this attribute allows the user define if want to set the inner axis Y<br>
 <br>**In the backend the user can set this propierty**
@@ -181,7 +181,7 @@ this attribute allows the user define if want to set the inner axis Y<br>
 wChartSeriesListDTO.getChartProperties().setInnerAxisY(true);
 ```
 ----
-- **innerAxisY2 (field type Boolean)**<br>
+**innerAxisY2 (field type Boolean)**<br>
 #### :page_with_curl: Description
 this attribute allows the user define if want to set the inner axis Y2<br>
 <br>**In the backend the user can set this propierty**
@@ -190,7 +190,7 @@ this attribute allows the user define if want to set the inner axis Y2<br>
 wChartSeriesListDTO.getChartProperties().setInnerAxisY2(true);
 ```
 ----
-- **tickValueAxisX (field type ArrayList)**<br>
+**tickValueAxisX (field type ArrayList)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to tick values for axis X<br>
 <br>**In the backend the user can set this propierty**
@@ -199,7 +199,7 @@ this attribute allows the user to tick values for axis X<br>
 wChartSeriesListDTO.getChartProperties().setTickValueAxisX(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
 ----
-- **tickValueAxisY (field type ArrayList)**<br>
+**tickValueAxisY (field type ArrayList)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to tick values for axis Y<br>
 <br>**In the backend the user can set this propierty**
@@ -208,7 +208,7 @@ this attribute allows the user to tick values for axis Y<br>
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
 ----
-- **tickValueAxisY2 (field type ArrayList)**<br>
+**tickValueAxisY2 (field type ArrayList)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to tick values for axis Y2<br>
 <br>**In the backend the user can set this propierty**
@@ -217,7 +217,7 @@ this attribute allows the user to tick values for axis Y2<br>
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
 ----
-- **tickValueAxisY2 (field type ArrayList)**<br>
+**tickValueAxisY2 (field type ArrayList)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to tick values for axis Y2<br>
 <br>**In the backend the user can set this propierty**
@@ -226,7 +226,7 @@ this attribute allows the user to tick values for axis Y2<br>
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
 ----
-- **showGridX (field type Boolean)**<br>
+**showGridX (field type Boolean)**<br>
 #### :page_with_curl: Description
 this attribute allows the user define if want to show the grid´s at the axis X<br>
 <br>**In the backend the user can set this propierty**
@@ -235,7 +235,7 @@ this attribute allows the user define if want to show the grid´s at the axis X<
 wChartSeriesListDTO.getChartProperties().setShowGridX(true);
 ```
 ----
-- **showGridY (field type Boolean)**<br>
+**showGridY (field type Boolean)**<br>
 #### :page_with_curl: Description
 this attribute allows the user define if want to show the grid´s at the axis Y<br>
 <br>**In the backend the user can set this propierty**
@@ -244,7 +244,7 @@ this attribute allows the user define if want to show the grid´s at the axis Y<
 wChartSeriesListDTO.getChartProperties().setShowGridY(true);
 ```
 ----
-- **linesGridX (WChartGridLineDTO)**<br>
+**linesGridX (WChartGridLineDTO)**<br>
 #### :page_with_curl: Description
 this attribute allows the user define if want to set and show the lines at the axis X<br>
 <br>- **linesGridY (WChartGridLineDTO)**
