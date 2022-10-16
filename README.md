@@ -139,9 +139,24 @@ wChartSeriesListDTO.getChartProperties().setTickValueAxisY(new ArrayList<>(Array
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
+- **tickValueAxisY2 (field type ArrayList)** - this attribute allows the user to tick values for axis Y2<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
+```
+- **showGridX (field type Boolean)** - this attribute allows the user define if want to show the grid´s at the axis X<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setShowGridX(true);
+```
+- **showGridY (field type Boolean)** - this attribute allows the user define if want to show the grid´s at the axis Y<br>
+**In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setShowGridY(true);
+```
 
 
-showGridX (Boolean) ex. wChartSeriesListDTO.getChartProperties().setShowGridX(true)
-showGridY (Boolean) ex. wChartSeriesListDTO.getChartProperties().setShowGridY(true)
+
+
 linesGridX (WChartGridLineDTO) ex. wChartSeriesListDTO.getChartProperties().setLinesGridX(new ArrayList(Arrays.asList(new WChartGridLineDTO())));
 linesGridY (WChartGridLineDTO) ex. wChartSeriesListDTO.getChartProperties().setLinesGridY(new ArrayList(Arrays.asList(new WChartGridLineDTO())));
