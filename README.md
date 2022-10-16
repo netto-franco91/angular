@@ -181,6 +181,30 @@ wChartSeriesListDTO.getChartProperties().setShowGridY(true);
         arrayListLinesX.add(wChartGridLineDTOX1);
         arrayListLinesX.add(wChartGridLineDTOX2);
         arrayListLinesX.add(wChartGridLineDTOX3);
+        
+       ___________________________________________________________________________________________________________________________________________
+        
+        WChartGridLineDTO wChartGridLineDTOY1 = new WChartGridLineDTO();
+        wChartGridLineDTOY1.setCssClass("class2");
+        wChartGridLineDTOY1.setPosition(GridAxesPositionTextEnum.END);
+        wChartGridLineDTOY1.setText("1232131");
+        wChartGridLineDTOY1.setValue(45);
+        
+        WChartGridLineDTO wChartGridLineDTOY2 = new WChartGridLineDTO();
+        wChartGridLineDTOY2.setCssClass("class2");
+        wChartGridLineDTOY2.setPosition(GridAxesPositionTextEnum.END);
+        wChartGridLineDTOY2.setText("1232131");
+        wChartGridLineDTOY2.setValue(55);
+
+        WChartGridLineDTO wChartGridLineDTOY3 = new WChartGridLineDTO();
+        wChartGridLineDTOY3.setCssClass("class2");
+        wChartGridLineDTOY3.setPosition(GridAxesPositionTextEnum.END);
+        wChartGridLineDTOY3.setText("1232131");
+        wChartGridLineDTOY3.setValue(66);
+        
+        arrayListLinesY.add(wChartGridLineDTOY1);
+        arrayListLinesY.add(wChartGridLineDTOY2);
+        arrayListLinesY.add(wChartGridLineDTOY3);
  };
 ```
 
