@@ -1,4 +1,4 @@
-**maxTargetField (field type String) - this attribute allows the user to set the maximum target field**
+**maxTargetField (field type String) - this attribute allows the user to set the maximum target field**<br>
 **In the backend the user set like this exemple:**
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setMaxTargetField("maxTargetField");
