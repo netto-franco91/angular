@@ -209,7 +209,12 @@ wChartSeriesListDTO.getChartProperties().setShowGridY(true);
 ```
    **Then the user can call the fillArrayLines method like example:**<br>
 ```java I'm tab B
-wChartSeriesListDTO.getChartProperties().setShowGridX(true);
+private void callArrayLines(wChartSeriesListDTO) {
+        ArrayList<WChartGridLineDTO> arrayListLinesY = new ArrayList<>();
+        ArrayList<WChartGridLineDTO> arrayListLinesX = new ArrayList<>();
+        fillArrayLines(arrayListLinesX, arrayListLinesY);
+        wChartSeriesListDTO.getChartProperties().setLinesGridX(arrayListLinesX);
+        wChartSeriesListDTO.getChartProperties().setLinesGridY(arrayListLinesY);
 ```
 
 
