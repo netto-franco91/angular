@@ -207,6 +207,10 @@ wChartSeriesListDTO.getChartProperties().setShowGridY(true);
         arrayListLinesY.add(wChartGridLineDTOY3);
  };
 ```
+**Then the user can call the fillArrayLines method like example:**<br>
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setShowGridX(true);
+```
 
 
 
