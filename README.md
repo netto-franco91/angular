@@ -84,7 +84,7 @@ OUTER_LEFT("outer-left")<br>
 wChartSeriesListDTO.getChartProperties().setAxisXPositionTitle(AxisXPositionTextEnum.OUTER_RIGHT);
 ```
 - **axisYPositionTitle  (field type AxisYPositionTextEnum)** - this attribute allows the user to define the position of the Y axis title<br>
-  **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYPositionTextEnum.class**<br> 
+  **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYPositionTextEnum.java**<br> 
 INNER_TOP("inner-top")<br>
 INNER_MIDDLE("inner-middle")<br>
 INNER_BOTTOM("inner-bottom")<br>
@@ -94,4 +94,23 @@ OUTER_BOTTOM("outer-bottom")<br>
  **In the backend the user can set the same as the example:**
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisYPositionTitle(AxisYPositionTextEnum.OUTER_TOP);
+```
+- **axisXType  (field type AxisXType)** - this attribute allows the user to define the type of the X axis<br>
+  **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXTypeEnum.java**<br> 
+TIMESERIES("timeseries")<br>
+CATEGORY("category")<br>
+INDEXED("indexed")<br>
+ **In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setAxisXType(AxisXTypeEnum.TIMESERIES);
+```
+- **axisYType  (field type AxisYType)** - this attribute allows the user to define the type of the Y axis<br>
+  **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYTypeEnum.java**<br> 
+LINEAR("linear")<br>
+TIME("time")<br>
+TIMESERIES("timeseries")<br>
+LOG("log")<br>
+ **In the backend the user can set the same as the example:**
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setAxisYType(AxisYTypeEnum.LINEAR);
 ```
