@@ -161,7 +161,7 @@ wChartSeriesListDTO.getChartProperties().setAxisXType(AxisXTypeEnum.TIMESERIES);
 **axisYType  (field type AxisYType)**<br>
 #### :page_with_curl: Description
 this attribute allows the user to define the type of the Y axis<br>
-  <br>**There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYTypeEnum.java**<br> 
+  <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYTypeEnum.java**<br> 
 LINEAR("linear")<br>
 TIME("time")<br>
 TIMESERIES("timeseries")<br>
