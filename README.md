@@ -34,19 +34,27 @@ this attribute allows the user to set the minimum target value<br>
 wChartSeriesListDTO.getChartProperties().setMinTargetValue("minTargetValue");
 ```
 ----
-- **ieTargetType (field type String)** - this attribute allows the user to set the type of the target<br>
-**In the backend the user can set this propierty**
+- **ieTargetType (field type String)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to set the type of the target<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setIeTargetType("ieTargetType");
 ```
-- **StringType (field type String)** - this attribute allows the user to set the type of the string<br>
-**In the backend the user can set the same as the example:**
+----
+- **StringType (field type String)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to set the type of the string<br>
+<br>**In the backend the user can set the same as the example:**
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setStringType("stringType");
 ```
-- **Type (field type SerieType)** - this attribute allows the user to set the type of the chart serie<br>
-**There is an enum with the types available to the user: br/com/philips/tasy/dto/shared/wchart/SerieType.java**<br>
+----
+- **Type (field type SerieType)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to set the type of the chart serie<br>
+<br>**There is an enum with the types available to the user: br/com/philips/tasy/dto/shared/wchart/SerieType.java**<br>
 bar("B", "HB")<br>
 pie("P") 
 timeline("TL")<br>
@@ -68,20 +76,29 @@ histogram("HST")
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setSerieType(SerieType.HST);
 ```
-- **Title (field type String)** - this attribute allows the user to set the title for the chart<br>
-**In the backend the user can set this propierty**
+----
+- **Title (field type String)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to set the title for the chart<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTitle("title");
 ```
-- **axisXTitle (field type String)** - this attribute allows the user to set the title for the axis X<br>
-**In the backend the user can set this propierty**
+----
+- **axisXTitle (field type String)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to set the title for the axis X<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisXTitle("axisXTitle");
 ```
-- **axisYTitle (field type String)** - this attribute allows the user to set the title for the axis Y<br>
-**In the backend the user can set this propierty**
+----
+- **axisYTitle (field type String)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to set the title for the axis Y<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisYTitle("axisYTitle");
@@ -92,9 +109,11 @@ wChartSeriesListDTO.getChartProperties().setAxisYTitle("axisYTitle");
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisY2Title("axisY2Title");
 ```
-
-- **axisXPositionTitle (field type AxisXPositionTextEnum)** - this attribute allows the user to define the position of the X axis title<br>
-  **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXPositionTextEnum.java**<br> 
+----
+- **axisXPositionTitle (field type AxisXPositionTextEnum)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to define the position of the X axis title<br>
+  <br>**There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXPositionTextEnum.java**<br> 
 INNER_RIGHT("inner-right")<br>
 INNER_CENTER("inner-center")<br>
 INNER_LEFT("inner-left")<br>
@@ -106,6 +125,7 @@ OUTER_LEFT("outer-left")<br>
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisXPositionTitle(AxisXPositionTextEnum.OUTER_RIGHT);
 ```
+----
 - **axisYPositionTitle  (field type AxisYPositionTextEnum)** - this attribute allows the user to define the position of the Y axis title<br>
   **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYPositionTextEnum.java**<br> 
 INNER_TOP("inner-top")<br>
