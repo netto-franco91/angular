@@ -238,7 +238,7 @@ wChartSeriesListDTO.getChartProperties().setShowGridY(true);
 **linesGridX (WChartGridLineDTO)**<br>
 #### :page_with_curl: Description
 this attribute allows the user define if want to set and show the lines at the axis X<br>
-<br>- **linesGridY (WChartGridLineDTO)**
+<br> **linesGridY (WChartGridLineDTO)**
 #### :page_with_curl: Description
 this attribute allows the user define if want to set and show the lines at the axis Y<br>
 <br>**In the backend the user can create a method to fill X axis lines array and Y axis lines array**
