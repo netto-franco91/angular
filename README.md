@@ -103,8 +103,11 @@ this attribute allows the user to set the title for the axis Y<br>
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisYTitle("axisYTitle");
 ```
-- **axisY2Title (field type String)** - this attribute allows the user to set the title for the axis Y2<br>
-**In the backend the user can set this propierty**
+----
+- **axisY2Title (field type String)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to set the title for the axis Y2<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisY2Title("axisY2Title");
@@ -126,8 +129,10 @@ OUTER_LEFT("outer-left")<br>
 wChartSeriesListDTO.getChartProperties().setAxisXPositionTitle(AxisXPositionTextEnum.OUTER_RIGHT);
 ```
 ----
-- **axisYPositionTitle  (field type AxisYPositionTextEnum)** - this attribute allows the user to define the position of the Y axis title<br>
-  **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYPositionTextEnum.java**<br> 
+- **axisYPositionTitle  (field type AxisYPositionTextEnum)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to define the position of the Y axis title<br>
+  <br>**There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYPositionTextEnum.java**<br> 
 INNER_TOP("inner-top")<br>
 INNER_MIDDLE("inner-middle")<br>
 INNER_BOTTOM("inner-bottom")<br>
@@ -139,8 +144,11 @@ OUTER_BOTTOM("outer-bottom")<br>
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisYPositionTitle(AxisYPositionTextEnum.OUTER_TOP);
 ```
-- **axisXType  (field type AxisXType)** - this attribute allows the user to define the type of the X axis<br>
-  **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXTypeEnum.java**<br> 
+----
+- **axisXType  (field type AxisXType)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to define the type of the X axis<br>
+  <br>**There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXTypeEnum.java**<br> 
 TIMESERIES("timeseries")<br>
 CATEGORY("category")<br>
 INDEXED("indexed")<br>
@@ -149,8 +157,11 @@ INDEXED("indexed")<br>
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisXType(AxisXTypeEnum.TIMESERIES);
 ```
-- **axisYType  (field type AxisYType)** - this attribute allows the user to define the type of the Y axis<br>
-  **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYTypeEnum.java**<br> 
+----
+- **axisYType  (field type AxisYType)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to define the type of the Y axis<br>
+  <br>**There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYTypeEnum.java**<br> 
 LINEAR("linear")<br>
 TIME("time")<br>
 TIMESERIES("timeseries")<br>
@@ -160,57 +171,86 @@ LOG("log")<br>
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisYType(AxisYTypeEnum.LINEAR);
 ```
-- **innerAxisY (field type Boolean)** - this attribute allows the user define if want to set the inner axis Y<br>
-**In the backend the user can set this propierty**
+----
+- **innerAxisY (field type Boolean)**<br>
+#### :page_with_curl: Description
+this attribute allows the user define if want to set the inner axis Y<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setInnerAxisY(true);
 ```
-- **innerAxisY2 (field type Boolean)** - this attribute allows the user define if want to set the inner axis Y2<br>
-**In the backend the user can set this propierty**
+----
+- **innerAxisY2 (field type Boolean)**<br>
+#### :page_with_curl: Description
+this attribute allows the user define if want to set the inner axis Y2<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setInnerAxisY2(true);
 ```
-- **tickValueAxisX (field type ArrayList)** - this attribute allows the user to tick values for axis X<br>
-**In the backend the user can set this propierty**
+----
+- **tickValueAxisX (field type ArrayList)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to tick values for axis X<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTickValueAxisX(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
-- **tickValueAxisY (field type ArrayList)** - this attribute allows the user to tick values for axis Y<br>
-**In the backend the user can set this propierty**
+----
+- **tickValueAxisY (field type ArrayList)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to tick values for axis Y<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
-- **tickValueAxisY2 (field type ArrayList)** - this attribute allows the user to tick values for axis Y2<br>
-**In the backend the user can set this propierty**
+----
+- **tickValueAxisY2 (field type ArrayList)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to tick values for axis Y2<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
-- **tickValueAxisY2 (field type ArrayList)** - this attribute allows the user to tick values for axis Y2<br>
-**In the backend the user can set this propierty**
+----
+- **tickValueAxisY2 (field type ArrayList)**<br>
+#### :page_with_curl: Description
+this attribute allows the user to tick values for axis Y2<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
-- **showGridX (field type Boolean)** - this attribute allows the user define if want to show the grid´s at the axis X<br>
-**In the backend the user can set this propierty**
+----
+- **showGridX (field type Boolean)**<br>
+#### :page_with_curl: Description
+this attribute allows the user define if want to show the grid´s at the axis X<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setShowGridX(true);
 ```
-- **showGridY (field type Boolean)** - this attribute allows the user define if want to show the grid´s at the axis Y<br>
-**In the backend the user can set this propierty**
+----
+- **showGridY (field type Boolean)**<br>
+#### :page_with_curl: Description
+this attribute allows the user define if want to show the grid´s at the axis Y<br>
+<br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setShowGridY(true);
 ```
-- **linesGridX (WChartGridLineDTO)** - this attribute allows the user define if want to set and show the lines at the axis X<br>
-- **linesGridY (WChartGridLineDTO)** - this attribute allows the user define if want to set and show the lines at the axis Y<br>
-**In the backend the user can create a method to fill X axis lines array and Y axis lines array**
+----
+- **linesGridX (WChartGridLineDTO)**<br>
+#### :page_with_curl: Description
+this attribute allows the user define if want to set and show the lines at the axis X<br>
+<br>- **linesGridY (WChartGridLineDTO)**
+#### :page_with_curl: Description
+this attribute allows the user define if want to set and show the lines at the axis Y<br>
+<br>**In the backend the user can create a method to fill X axis lines array and Y axis lines array**
 #### :pencil2: Example
 ```java I'm tab B
  private void fillArrayLines(ArrayList<WChartGridLineDTO> arrayListLinesX, ArrayList<WChartGridLineDTO> arrayListLinesY) {
