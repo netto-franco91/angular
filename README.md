@@ -336,7 +336,7 @@ for example, if the month is 1 (January), it is necessary to transform it to 0.3
 it is necessary to pass 2 parameters, one of which is mandatory, where yearFinalScaleTickAxisX is necessary to know until what year the scale must be created (mandatory for active the ruler)
 and yearInitialScaleTickAxisX this parameter is used to say in which year it will start the axis scale, if the parameter is not passed, it will start at 0
 <br> <br>
-**valueX => valueX / 3; || valueX => (valueX / 12) * 4; **<br>
+**valueX => valueX / 3; || valueX => (valueX / 12) * 4; **
 
 **yearFinalScaleTickAxisX - (WChartGridLineDTO) **
 #### :pencil2: Example<br>
