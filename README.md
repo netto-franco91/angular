@@ -331,7 +331,7 @@ private void callArrayLines(wChartSeriesListDTO) {
 ```
 
 # Evolution Chart <br>
-In the evolution graph, it is necessary to transform the values, when the X-axis ruler is for years, to render the graph correctly.<br>
+In the evolution graph, it is necessary to transform the values, when the X-axis ruler is for years, to render the graph correctly.<br><br>
 **example:** <br>
 if the month is 1 (January), it is necessary to transform it to 0.333..., to month placement is correct.<br>
 To activate the rules mode on the x-axis, it is necessary to pass 2 parameters, one of which is mandatory, where yearFinalScaleTickAxisX is necessary to know until what year the scale must be created (mandatory for active the ruler) and yearInitialScaleTickAxisX this parameter is used to say in which year it will start the axis scale, if the parameter is not passed, it will start at 0
