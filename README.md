@@ -330,7 +330,6 @@ private void callArrayLines(wChartSeriesListDTO) {
         wChartSeriesListDTO.getChartProperties().setLinesGridY(arrayListLinesY);
 ```
 
-
 # Evolution Chart <br>
 In the evolution graph, it is necessary to transform the values, when the X-axis ruler is for years, to render the graph correctly,
 for example, if the month is 1 (January), it is necessary to transform it to 0.333..., to month placement is correct. To activate the rules mode on the x-axis,
@@ -338,6 +337,12 @@ it is necessary to pass 2 parameters, one of which is mandatory, where yearFinal
 and yearInitialScaleTickAxisX this parameter is used to say in which year it will start the axis scale, if the parameter is not passed, it will start at 0
 <br> <br>
 **valueX => valueX / 3; || valueX => (valueX / 12) * 4; **<br>
-
-**yearFinalScaleTickAxisX** (WChartGridLineDTO) ex. wChartSeriesListDTO.getChartProperties().setYearFinalRulerTickAxisX(19);<br>
-**yearInitialScaleTickAxisX** (WChartGridLineDTO) ex. wChartSeriesListDTO.getChartProperties().setYearInitialRulerTickAxisX(5);<br>
+**yearFinalScaleTickAxisX - (WChartGridLineDTO) **
+#### :pencil2: Example<br>
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setYearFinalRulerTickAxisX(19);
+```
+**yearInitialScaleTickAxisX - (WChartGridLineDTO)**<br>
+```java I'm tab B
+wChartSeriesListDTO.getChartProperties().setYearInitialRulerTickAxisX(5);
+```
