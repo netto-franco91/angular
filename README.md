@@ -1,61 +1,68 @@
 # Properties to configure the chart and its axes from the Backend:<br><br>
 
-**maxTargetField (field type String)** <br>
+**maxTargetField** <br>
 #### :page_with_curl: Description
 this attribute allows the user to set the maximum target field<br>
+data type the property accepts - String<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java
 wChartSeriesListDTO.getChartProperties().setMaxTargetField("maxTargetField");
 ```
 ----
-**minTargetField (field type String)**<br> 
+**minTargetField**<br> 
 #### :page_with_curl: Description
 this attribute allows the user to set the minimum target field<br>
+data type the property accepts - String<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setMinTargetField("minTargetField");
 ```
 ----
-**maxTargetValue (field type String)**<br>
+**maxTargetValue**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the maximum target value<br>
+data type the property accepts - String<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setMaxTargetValue("maxTargetValue");
 ```
 ----
-**minTargetValue (field type String)**<br>
+**minTargetValue**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the minimum target value<br>
+data type the property accepts - String<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setMinTargetValue("minTargetValue");
 ```
 ----
-**ieTargetType (field type String)**<br>
+**ieTargetType**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the type of the target<br>
+data type the property accepts - String<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setIeTargetType("ieTargetType");
 ```
 ----
-**StringType (field type String)**<br>
+**StringType**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the type of the string<br>
+data type the property accepts - String<br>
 <br>**In the backend the user can set the same as the example:**
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setStringType("stringType");
 ```
 ----
-**Type (field type SerieType)**<br>
+**Type**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the type of the chart serie<br>
+data type the property accepts - SerieType<br>
 <br> - **There is an enum with the types available to the user: br/com/philips/tasy/dto/shared/wchart/SerieType.java**<br>
 bar("B", "HB")<br>
 pie("P") 
@@ -79,45 +86,50 @@ histogram("HST")
 wChartSeriesListDTO.getChartProperties().setSerieType(SerieType.HST);
 ```
 ----
-**Title (field type String)**<br>
+**Title**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the title for the chart<br>
+data type the property accepts - String<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTitle("title");
 ```
 ----
-**axisXTitle (field type String)**<br>
+**axisXTitle**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the title for the axis X<br>
+data type the property accepts - String<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisXTitle("axisXTitle");
 ```
 ----
-**axisYTitle (field type String)**<br>
+**axisYTitle**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the title for the axis Y<br>
+data type the property accepts - String<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisYTitle("axisYTitle");
 ```
 ----
-**axisY2Title (field type String)**<br>
+**axisY2Title**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the title for the axis Y2<br>
+data type the property accepts - String<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setAxisY2Title("axisY2Title");
 ```
 ----
-**axisXPositionTitle (field type AxisXPositionTextEnum)**<br>
+**axisXPositionTitle**<br>
 #### :page_with_curl: Description
 this attribute allows the user to define the position of the X axis title<br>
+data type the property accepts - AxisXPositionTextEnum<br>
   <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXPositionTextEnum.java**<br> 
 INNER_RIGHT("inner-right")<br>
 INNER_CENTER("inner-center")<br>
@@ -131,9 +143,10 @@ OUTER_LEFT("outer-left")<br>
 wChartSeriesListDTO.getChartProperties().setAxisXPositionTitle(AxisXPositionTextEnum.OUTER_RIGHT);
 ```
 ----
-**axisYPositionTitle  (field type AxisYPositionTextEnum)**<br>
+**axisYPositionTitle**<br>
 #### :page_with_curl: Description
 this attribute allows the user to define the position of the Y axis title<br>
+data type the property accepts - AxisYPositionTextEnum<br>
   <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYPositionTextEnum.java**<br> 
 INNER_TOP("inner-top")<br>
 INNER_MIDDLE("inner-middle")<br>
@@ -147,9 +160,10 @@ OUTER_BOTTOM("outer-bottom")<br>
 wChartSeriesListDTO.getChartProperties().setAxisYPositionTitle(AxisYPositionTextEnum.OUTER_TOP);
 ```
 ----
-**axisXType  (field type AxisXType)**<br>
+**axisXType**<br>
 #### :page_with_curl: Description
 this attribute allows the user to define the type of the X axis<br>
+data type the property accepts - AxisXType<br>
   <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXTypeEnum.java**<br> 
 TIMESERIES("timeseries")<br>
 CATEGORY("category")<br>
@@ -160,9 +174,10 @@ INDEXED("indexed")<br>
 wChartSeriesListDTO.getChartProperties().setAxisXType(AxisXTypeEnum.TIMESERIES);
 ```
 ----
-**axisYType  (field type AxisYType)**<br>
+**axisYType**<br>
 #### :page_with_curl: Description
 this attribute allows the user to define the type of the Y axis<br>
+data type the property accepts - AxisYType<br>
   <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYTypeEnum.java**<br> 
 LINEAR("linear")<br>
 TIME("time")<br>
@@ -174,63 +189,70 @@ LOG("log")<br>
 wChartSeriesListDTO.getChartProperties().setAxisYType(AxisYTypeEnum.LINEAR);
 ```
 ----
-**innerAxisY (field type Boolean)**<br>
+**innerAxisY**<br>
 #### :page_with_curl: Description
 this attribute allows the user define if want to set the inner axis Y<br>
+data type the property accepts - Boolean<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setInnerAxisY(true);
 ```
 ----
-**innerAxisY2 (field type Boolean)**<br>
+**innerAxisY2**<br>
 #### :page_with_curl: Description
 this attribute allows the user define if want to set the inner axis Y2<br>
+data type the property accepts - Boolean<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setInnerAxisY2(true);
 ```
 ----
-**tickValueAxisX (field type ArrayList)**<br>
+**tickValueAxisX**<br>
 #### :page_with_curl: Description
 this attribute allows the user to tick values for axis X<br>
+data type the property accepts - ArrayList<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTickValueAxisX(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
 ----
-**tickValueAxisY (field type ArrayList)**<br>
+**tickValueAxisY**<br>
 #### :page_with_curl: Description
 this attribute allows the user to tick values for axis Y<br>
+data type the property accepts - ArrayList<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
 ----
-**tickValueAxisY2 (field type ArrayList)**<br>
+**tickValueAxisY2**<br>
 #### :page_with_curl: Description
 this attribute allows the user to tick values for axis Y2<br>
+data type the property accepts - ArrayList<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setTickValueAxisY2(new ArrayList<>(Arrays.asList("0","10","15","30","40")));
 ```
 ----
-**showGridX (field type Boolean)**<br>
+**showGridX**<br>
 #### :page_with_curl: Description
 this attribute allows the user define if want to show the grid´s at the axis X<br>
+data type the property accepts - Boolean<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setShowGridX(true);
 ```
 ----
-**showGridY (field type Boolean)**<br>
+**showGridY**<br>
 #### :page_with_curl: Description
 this attribute allows the user define if want to show the grid´s at the axis Y<br>
+data type the property accepts - Boolean<br>
 <br>**In the backend the user can set this propierty**
 #### :pencil2: Example
 ```java I'm tab B
@@ -240,6 +262,7 @@ wChartSeriesListDTO.getChartProperties().setShowGridY(true);
 **linesGridX (WChartGridLineDTO)**<br>
 #### :page_with_curl: Description
 this attribute allows the user define if want to set and show the lines at the axis X<br>
+data type the property accepts - (WChartGridLineDTO)<br>
 <br> **linesGridY (WChartGridLineDTO)**
 #### :page_with_curl: Description
 this attribute allows the user define if want to set and show the lines at the axis Y<br>
