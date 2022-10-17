@@ -328,7 +328,8 @@ private void callArrayLines(wChartSeriesListDTO) {
         wChartSeriesListDTO.getChartProperties().setLinesGridX(arrayListLinesX);
         wChartSeriesListDTO.getChartProperties().setLinesGridY(arrayListLinesY);
 ```
-<br>
+
+
 # Evolution Chart <br>
 In the evolution graph, it is necessary to transform the values, when the X-axis ruler is for years, to render the graph correctly,
 for example, if the month is 1 (January), it is necessary to transform it to 0.333..., to month placement is correct. To activate the rules mode on the x-axis,
