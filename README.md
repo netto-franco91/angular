@@ -335,8 +335,7 @@ In the evolution graph, it is necessary to transform the values, when the X-axis
 **Example:** <br>
 if the month is 1 (January), it is necessary to transform it to 0.333..., to month placement is correct.<br>
 To activate the rules mode on the x-axis, it is necessary to pass 2 parameters, one of which is mandatory, 
-<br> <br>
-
+<br>
 valueX => valueX / 3; || valueX => (valueX / 12) * 4;<br>
 
 **yearFinalScaleTickAxisX**<br>
