@@ -337,12 +337,14 @@ it is necessary to pass 2 parameters, one of which is mandatory, where yearFinal
 and yearInitialScaleTickAxisX this parameter is used to say in which year it will start the axis scale, if the parameter is not passed, it will start at 0
 <br> <br>
 **valueX => valueX / 3; || valueX => (valueX / 12) * 4; **<br>
+
 **yearFinalScaleTickAxisX - (WChartGridLineDTO) **
 #### :pencil2: Example<br>
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setYearFinalRulerTickAxisX(19);
 ```
 **yearInitialScaleTickAxisX - (WChartGridLineDTO)**<br>
+#### :pencil2: Example<br>
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setYearInitialRulerTickAxisX(5);
 ```
