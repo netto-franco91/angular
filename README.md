@@ -266,6 +266,7 @@ data type the property accepts - (WChartGridLineDTO)<br>
 <br> **linesGridY (WChartGridLineDTO)**
 #### :page_with_curl: Description
 this attribute allows the user define if want to set and show the lines at the axis Y<br>
+data type the property accepts - (WChartGridLineDTO)<br>
 <br>**In the backend the user can create a method to fill X axis lines array and Y axis lines array**
 #### :pencil2: Example
 ```java I'm tab B
