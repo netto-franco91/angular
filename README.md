@@ -6,7 +6,7 @@ In schematics you need to set three pieces of information:
 - __minRangeValue__: maximum value for the slider to select; <br>
 ----
 
-# Set the last value for the lines on column by frontend:<br><br>
+## Set the last value for the lines on column by frontend:<br><br>
 
 **addLabelLastValue** <br>
 #### :page_with_curl: Description
