@@ -1,3 +1,11 @@
+## Settings
+In schematics you need to set three pieces of information:
+
+- __showSlider__: checkbox with value "S" or "N";
+- __minRangeValue:__ minimum value for the slider to select;
+- __minRangeValue__: maximum value for the slider to select; <br>
+----
+
 # Set the last value for the lines on column by frontend:<br><br>
 
 **addLabelLastValue** <br>
