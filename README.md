@@ -1,3 +1,16 @@
+# Set the last value for the lines on column by frontend:<br><br>
+
+**addLabelLastValue** <br>
+#### :page_with_curl: Description
+this attribute allows the user to set the last value for the lines<br>
+<br>**In the frontend the user can set this propierty**
+#### :pencil2: Example
+```java
+a = angular.element($0).scope();
+a.handler.addLabelLastValue();
+```
+----
+
 # Properties to configure the chart and its axes from the Backend:<br><br>
 
 **maxTargetField** <br>
