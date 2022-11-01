@@ -1,10 +1,15 @@
-## Settings
-In schematics you need to set three pieces of information:
+### addLabelLastValue
 
-- __showSlider__: checkbox with value "S" or "N";
-- __minRangeValue:__ minimum value for the slider to select;
-- __minRangeValue__: maximum value for the slider to select; <br>
-----
+#### :page_with_curl: Description
+Set the last values in the lines to show on colum. (It's only works on Line chart) <br>
+
+#### :bookmark_tabs: Parameters
+Not available. <br>
+
+#### Example
+```javascript
+handler.addLabelLastValue();
+```
 
 ## Set the last value for the lines on column by frontend:<br><br>
 
