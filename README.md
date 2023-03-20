@@ -1,4 +1,26 @@
-- [setRefreshIntervalAsSeconds](#setrefreshintervalasseconds)
+
+- [rotateHeader](#rotateHeader)
+
+### rotateHeader
+----
+#### :page_with_curl: Description
+Sets header angle to 45º at the grid **in seconds**.
+
+> **Be careful** use only if there is too much data to be displayed in the panel.
+
+#### :bookmark_tabs: Parameters
+**intervalTime:** Not available.
+
+#### :pencil2: Example
+```javascript
+@Singleton({ domain: 'atePac/AtePacAN' })
+export default class AppointmentsWPOnClick {
+  onLoad(schematics, wpanel, event) {
+    handler.rotateHeader(); // 45º
+  }
+}
+```
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### addLabelLastValue
 
