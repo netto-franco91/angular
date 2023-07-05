@@ -1876,26 +1876,6 @@ Not available. <br>
 ```javascript
 handler.addLabelLastValue();
 ```
-### setRangeAxes
-
-#### :page_with_curl: Description
-Set the last values in the lines to show on colum. (It's only works on Line chart) <br>
-
-#### :bookmark_tabs: Parameters
-**Axis:** _(string)_ axis that you want to set the values max and mim<br>
-**AxisMinValue:** _(number)_ minimum value to the axis to be used in the chart <br>
-**AxisMaxValue:** _(number)_ maximum value to the axis to be used in the chart <br>
-
-#### Example
-**to y axis
-```javascript
-handler.setRangeAxes('y', 40, 70);
-```
-#### Example
-**to x axis
-```javascript
-handler.setRangeAxes('x', 3, 15);
-```
 
 ### useRoundScale
 ----
