@@ -84,8 +84,8 @@ export default class ChartTest extends WChart {
     let params;
 
     /**
-     * event.cdSerie = NR_SEQUENCIA from DIC_OBJETO (folder "HTML5 - Series" 
-     * inside the folder "WChartSeries" on the Feature "Object Dictionary"). 
+     * event.cdSerie = NR_SEQUENCIA from DIC_OBJETO (folder "HTML5 - Series"
+     * inside the folder "WChartSeries" on the Feature "Object Dictionary").
      * Usualy each serie is a specific chart color/area.
     */
 
@@ -108,8 +108,8 @@ export default class ChartTest extends WChart {
     }
 
     /**
-     * event.record = Is one sql registered that return from sql executation 
-     * from DIC_OBJETO.DS_SQL (folder "WChartSeries" on the Feature "Object 
+     * event.record = Is one sql registered that return from sql executation
+     * from DIC_OBJETO.DS_SQL (folder "WChartSeries" on the Feature "Object
      * Dictionary").
     */
 
@@ -367,7 +367,7 @@ export default class MyChart extends WChart  {
 }
 ```
 
-### getYAxisMaxValue
+### getYAxisMaxValue - (This method is currently unused)
 ----
 #### :page_with_curl: Description
 Get the maximum value of the y axis in a chart<br>
@@ -388,7 +388,7 @@ export default class MyChart extends WChart  {
 }
 ```
 
-### setYAxisMinValue
+### setYAxisMinValue - (This method is currently unused)
 ----
 #### :page_with_curl: Description
 Set a minimum value to the y axis in a chart<br>
@@ -495,7 +495,7 @@ handler.addSerie('BBIRDS', 'Birds', undefined, Y3, undefined, 'line');
 
 ### addSerieToDontShowMarker
 This method is used to add a serie to don't show the marker.
-  
+
 #### Parameter
 ``id`` A String. This will be the ID of the series.
 
@@ -503,7 +503,7 @@ This method is used to add a serie to don't show the marker.
 ```javascript
 handler.addSerieToDontShowMarker('serieId');
 ```
-  
+
 ### removeSerieFromDontShowMarker
 This method is used to remove a serie from the don't show the marker
 
@@ -527,7 +527,7 @@ Method used to specify a sort function to the axis x column. [See also the docum
 const sortfn = (a, b) => {
   if (something) return 1;
   if (somethingElse) return -1;
-  
+
   return 0;
 };
 
@@ -638,7 +638,7 @@ When its necessary a request to the banckend to bring new data for chart, use ke
 function onAfterActivate(schematics, chart, event) {
   chart.setKeepLoading(true);
 
-  executeRequest().then((data) =>{    
+  executeRequest().then((data) =>{
     // set values chart
     chart.setKeepLoading(false);
   });
@@ -706,12 +706,12 @@ handler.saveChartAs(filename);
 
 ### saveChartAsPdf
 ----
-#### :page_with_curl: Description   
-This method is used to download and save the full chart pdf to the user computer. 
+#### :page_with_curl: Description
+This method is used to download and save the full chart pdf to the user computer.
 #### :bookmark_tabs: Parameters
-**filename:** _(String)_ The filename, if undefined, the chart id will be used instead. 
+**filename:** _(String)_ The filename, if undefined, the chart id will be used instead.
 #### :leftwards_arrow_with_hook: Return
-Not available.   
+Not available.
 #### :pencil2: Example
 ```javascript
 @Controller({ domain: 'corEis/EisAteDR', code: 1196314, parent: 1173208 })
@@ -844,7 +844,7 @@ This method sets the style in which the value should be displayed in the tooltip
 
 #### Possible styles:
 Consider two charts with the following series:
- 
+
  - `Chart A: { ySeries: [1, 3] }`
  - `Chart B: { ySeries: [1, 3] and [3, 2] }`
 
@@ -878,7 +878,7 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   | Params | Type | Description |
   | --- | --- | --- |
-  | axis | String | The axis: **x** or **y** |  
+  | axis | String | The axis: **x** or **y** |
   | show | Boolean | Show or hide axis |
 
   ##### Example:
@@ -893,7 +893,7 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   | Params | Type | Description |
   | --- | --- | --- |
-  | labels | ObjectArray | The array of objects with keys **x** or **y** |  
+  | labels | ObjectArray | The array of objects with keys **x** or **y** |
 
   ##### Example:
   ```javascript
@@ -907,7 +907,7 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   | Params | Type | Description |
   | --- | --- | --- |
-  | show | Boolean | The visibility of grid x  |  
+  | show | Boolean | The visibility of grid x  |
 
   ##### Example:
   ```javascript
@@ -920,7 +920,7 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   | Params | Type | Description |
   | --- | --- | --- |
-  | show | Boolean | The visibility of grid y  |  
+  | show | Boolean | The visibility of grid y  |
 
   ##### Example:
   ```javascript
@@ -972,9 +972,9 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   | Params | Type | Description |
   | --- | --- | --- |
-  | axis | String | The axis: **x** or **y** |  
-  | initialRange | **String/Number** | The initial range of chart |  
-  | finalRange | **String/Number** | The final range of chart |  
+  | axis | String | The axis: **x** or **y** |
+  | initialRange | **String/Number** | The initial range of chart |
+  | finalRange | **String/Number** | The final range of chart |
 
   ##### Example:
   ```javascript
@@ -992,7 +992,7 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   | Params | Type | Description |
   | --- | --- | --- |
-  | colorConfig | ObjectArray | The array with **series** and **colors** objects |  
+  | colorConfig | ObjectArray | The array with **series** and **colors** objects |
 
   ##### Example:
   ```javascript
@@ -1020,8 +1020,8 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   | Params | Type | Description |
   | --- | --- | --- |
-  | serie | String | The string with the serie identificator |  
-  | color | String | The string with the new color |  
+  | serie | String | The string with the serie identificator |
+  | color | String | The string with the new color |
 
   ##### Example:
   ```javascript
@@ -1035,7 +1035,7 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   | Params | Type | Description |
   | --- | --- | --- |
-  | labelConfig | ObjectArray | The array with **series** and **labels** objects |  
+  | labelConfig | ObjectArray | The array with **series** and **labels** objects |
 
   ##### Example:
   ```javascript
@@ -1063,7 +1063,7 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   | Params | Type | Description |
   | --- | --- | --- |
-  | serie | String | The string with the serie identificator |  
+  | serie | String | The string with the serie identificator |
   | label | String | The string with the new label |
 
   ##### Example:
@@ -1212,12 +1212,12 @@ Changes the histogram tooltip according to a function returning its template. Th
 
 - **Template structure**: the developer can set an HTML template structure customized according to its preferences on the tooltip.
 
-Please note that the function created by the developer containing the desired template may have up to 2 parameters: 
+Please note that the function created by the developer containing the desired template may have up to 2 parameters:
 
 - **y**: this parameter is used to display the histogram Y-Axis value. Using it will show the hovered point y-value in the histogram.
 
 - **x**: this parameter is an object used to display the hovered point date (**x.dateValue**) and day (**x.stringDate**). Using it will show the hovered point date in the histogram and/or if the date is equal to today, tomorrow or yesterday. Please note that
-x.dateValue can be formatted according to the developer preferences. The syntax is **"x.dateValue.format(*formatPattern*)"**. 
+x.dateValue can be formatted according to the developer preferences. The syntax is **"x.dateValue.format(*formatPattern*)"**.
 A full list of date formatting patterns can be found at [Moment.js official documentation](https://momentjscom.readthedocs.io/en/latest/moment/04-displaying/01-format/).
 
 
@@ -1237,7 +1237,7 @@ Not available
 ```javascript
 @Controller({ domain: 'atePac/atePac', code: 123456 })
 
-// Developer template function 
+// Developer template function
   function getTooltipParameters (x, y) {
 
     const currentDate = moment(); //Get current date using Moment.js
@@ -1380,7 +1380,7 @@ The value that the gauge needle should point to also need to be registered as a 
 ## Reference Values
 When using the gauge chart, it will also be showed some reference values on specific degrees of the chart. To specify how many values should be showed, there's the property ``gaugeDegreesQuantity`` that accepts an numeric value.
 
-The default number os values showed is set to 5. 
+The default number os values showed is set to 5.
 
 ## Methods
 There's also the possibility to use some of the following methods along with the gauge chart:
@@ -1431,7 +1431,7 @@ const task = {
 ## Feeding data and creating the Gantt chart
 To feed data into the chart, one must use the methods made available through the builder object, which can be obtained through the ```getGanttBuilder``` method, from the wChart handler.
 
-The builder object has the following methods: 
+The builder object has the following methods:
 
 #### addActivity
 This method is used to add activities to the Gantt chart.
@@ -1591,15 +1591,15 @@ Changes the state of a item on the chart handlebar
 }
 ```
 
-### getBase64 
+### getBase64
 This method return a promise with string base64.
-  
+
 #### Example
-```javascript 
+```javascript
   handler.getBase64().then(data=>{
     console.log(data);
   });
-```  
+```
 
 
 ## Inserting the chart on the page
@@ -1650,7 +1650,7 @@ class Dashboard extends WDashboard {
       chartBuilder.createValue(4, 4),
       chartBuilder.createValue(3, 8, 'Target', true),
     ];
-    
+
     chartBuilder.addSerie(1, 'bar', 'Qty.', values, true, 'date(short)',',.2f');
 
     return chartBuilder;
@@ -1692,6 +1692,85 @@ public class WChartActionSample {
          .addRestriction("and 'mfklauberg' = :nm_usuario ")
          .addParameter("NM_USUARIO", "mfklauberg");
  }
+}
+```
+
+
+## postProcessingAction
+It's possible to manipulate data before its getting returned from backend.
+
+The post processing action annotated classes will be found and called right before returning from backend, that's the exact point if you need to manipulate your data.
+You'ill need to create an action interceptor, as shown below:
+
+#### Example:
+```java
+import br.com.philips.tasy.dto.shared.wchart.WChartProperties;
+import br.com.philips.tasy.dto.shared.wchart.WChartSeriesDTO;
+import br.com.philips.tasy.dto.shared.wchart.WChartSeriesValueDTO;
+import br.com.wheb.action.wChart.AbstractWChartPostProcessingAction;
+import br.com.wheb.annotations.NamedAction;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+@NamedAction(name = "postProcessSeries", referedInterface = AbstractWChartPostProcessingAction.class)
+public class TecTesF1WChartPostProcessingAction extends AbstractWChartPostProcessingAction {
+
+    @Override
+    public ArrayList<WChartSeriesDTO> build(ArrayList<WChartSeriesDTO> series, Integer dictionaryCode, Map<String, Object> params,
+                                            ArrayList<HashMap> aditionalSeries, Map<String, Object> filterValues, WChartProperties chartProperties) {
+        ArrayList<WChartSeriesValueDTO> values1stSerie = new ArrayList();
+        ArrayList<WChartSeriesValueDTO> values2ndSerie = new ArrayList();
+        ArrayList<WChartSeriesValueDTO> values3rdSerie = new ArrayList();
+        ArrayList<WChartSeriesValueDTO> values4thSerie = new ArrayList();
+        String[] dates = {
+            "01/07/2018",
+            "02/07/2018",
+            "03/07/2018",
+            "04/07/2018",
+            "05/07/2018",
+            "06/07/2018",
+            "07/07/2018",
+            "08/07/2018",
+            "09/07/2018",
+            "10/07/2018",
+        };
+
+        for (int i = 0; i < 10; i++) {
+            values1stSerie.add(createValueDTO(dates[i],400 - 10 * i));
+            values2ndSerie.add(createValueDTO(dates[i],50 * i));
+            values3rdSerie.add(createValueDTO(dates[i],200 - 2 * i));
+            if (i == 1) {
+                values4thSerie.add(createValueDTO(dates[i], 0));
+            } else {
+                values4thSerie.add(createValueDTO(dates[i],100 * i - 75));
+            }
+        }
+
+        for (WChartSeriesValueDTO value : values1stSerie) {
+            series.get(0).getValues().add(value);
+        }
+        for (WChartSeriesValueDTO value : values2ndSerie) {
+            series.get(1).getValues().add(value);
+        }
+        for (WChartSeriesValueDTO value : values3rdSerie) {
+            series.get(2).getValues().add(value);
+        }
+        for (WChartSeriesValueDTO value : values4thSerie) {
+            series.get(3).getValues().add(value);
+        }
+
+        return series;
+    }
+
+    private WChartSeriesValueDTO createValueDTO(Object axisX, Object axisY) {
+        WChartSeriesValueDTO value = new WChartSeriesValueDTO();
+        value.setPrediction(true);
+        value.setValueAxisX(axisX);
+        value.setValueAxisY(axisY);
+        return value;
+    }
 }
 ```
 
@@ -1817,7 +1896,7 @@ Use this method if you want to put vertical lines on chart. (Only works on line 
 const linesGrid = [
             { value: 100, text: 'Line 1' },
             { value: 200, text: 'Line 2' },
-            { value: 300, text: 'Line 3' }, 
+            { value: 300, text: 'Line 3' },
             { value: 400, text: 'Line 4' }
           ]
 
@@ -1831,7 +1910,7 @@ import { WChart } from 'odin-utils/controllers';
 
 @Controller({ domain: 'nicu/NicuAn', code: 1111111 })
 export default class FluidBalanceChartWChart extends WChart {
-  
+
   onLoad(schematics, handler) {
     handler.setLegendsSliderVisible(true);
   }
@@ -1895,7 +1974,7 @@ import { WChart } from 'odin-utils/controllers';
 
 @Controller({ domain: 'nicu/NicuAn', code: 1111111 })
 export default class FluidBalanceChartWChart extends WChart {
-  
+
   onLoad(schematics, handler) {
     handler.useRoundScale();
   }
@@ -1942,7 +2021,7 @@ data type the property accepts - String<br>
 wChartSeriesListDTO.getChartProperties().setMaxTargetField("maxTargetField");
 ```
 ----
-**minTargetField**<br> 
+**minTargetField**<br>
 #### :page_with_curl: Description
 this attribute allows the user to set the minimum target field<br>
 data type the property accepts - String<br>
@@ -1997,20 +2076,20 @@ this attribute allows the user to set the type of the chart serie<br>
 data type the property accepts - SerieType<br>
 <br> - **There is an enum with the types available to the user: br/com/philips/tasy/dto/shared/wchart/SerieType.java**<br>
 bar("B", "HB")<br>
-pie("P") 
+pie("P")
 timeline("TL")<br>
-bar("B", "HB")<br> 
-pie("P")<br> 
-timeline("TL")<br> 
+bar("B", "HB")<br>
+pie("P")<br>
+timeline("TL")<br>
 gauge("G")<br>
-line("L", "HL")<br> 
-area("A", "HA")<br> 
-spline("LS")<br> 
-donut("DN")<br> 
-halfdonut("HDN")<br> 
-scatter("D")<br> 
+line("L", "HL")<br>
+area("A", "HA")<br>
+spline("LS")<br>
+donut("DN")<br>
+halfdonut("HDN")<br>
+scatter("D")<br>
 bubble("BB")<br>
-histogram("HST") 
+histogram("HST")
 
   **In the backend the user can set this propierty**
 #### :pencil2: Example
@@ -2062,7 +2141,7 @@ wChartSeriesListDTO.getChartProperties().setAxisY2Title("axisY2Title");
 #### :page_with_curl: Description
 this attribute allows the user to define the position of the X axis title<br>
 data type the property accepts - AxisXPositionTextEnum<br>
-  <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXPositionTextEnum.java**<br> 
+  <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXPositionTextEnum.java**<br>
 INNER_RIGHT("inner-right")<br>
 INNER_CENTER("inner-center")<br>
 INNER_LEFT("inner-left")<br>
@@ -2079,7 +2158,7 @@ wChartSeriesListDTO.getChartProperties().setAxisXPositionTitle(AxisXPositionText
 #### :page_with_curl: Description
 this attribute allows the user to define the position of the Y axis title<br>
 data type the property accepts - AxisYPositionTextEnum<br>
-  <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYPositionTextEnum.java**<br> 
+  <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYPositionTextEnum.java**<br>
 INNER_TOP("inner-top")<br>
 INNER_MIDDLE("inner-middle")<br>
 INNER_BOTTOM("inner-bottom")<br>
@@ -2096,7 +2175,7 @@ wChartSeriesListDTO.getChartProperties().setAxisYPositionTitle(AxisYPositionText
 #### :page_with_curl: Description
 this attribute allows the user to define the type of the X axis<br>
 data type the property accepts - AxisXType<br>
-  <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXTypeEnum.java**<br> 
+  <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisXTypeEnum.java**<br>
 TIMESERIES("timeseries")<br>
 CATEGORY("category")<br>
 INDEXED("indexed")<br>
@@ -2110,7 +2189,7 @@ wChartSeriesListDTO.getChartProperties().setAxisXType(AxisXTypeEnum.TIMESERIES);
 #### :page_with_curl: Description
 this attribute allows the user to define the type of the Y axis<br>
 data type the property accepts - AxisYType<br>
-  <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYTypeEnum.java**<br> 
+  <br> - **There is an enum with the positions available to the user: br/com/philips/tasy/dto/shared/wchart/AxisYTypeEnum.java**<br>
 LINEAR("linear")<br>
 TIME("time")<br>
 TIMESERIES("timeseries")<br>
@@ -2203,7 +2282,7 @@ data type the property accepts - (WChartGridLineDTO)<br>
 #### :pencil2: Example
 ```java I'm tab B
  private void fillArrayLines(ArrayList<WChartGridLineDTO> arrayListLinesX, ArrayList<WChartGridLineDTO> arrayListLinesY) {
-  
+
   // X Lines//
   WChartGridLineDTO wChartGridLineDTOX1 = new WChartGridLineDTO();
         wChartGridLineDTOX1.setCssClass("class1");
@@ -2222,18 +2301,18 @@ data type the property accepts - (WChartGridLineDTO)<br>
         wChartGridLineDTOX3.setPosition(GridAxesPositionTextEnum.END);
         wChartGridLineDTOX3.setText("LINE3");
         wChartGridLineDTOX3.setValue(10);
-        
+
         arrayListLinesX.add(wChartGridLineDTOX1);
         arrayListLinesX.add(wChartGridLineDTOX2);
         arrayListLinesX.add(wChartGridLineDTOX3);
-        
-    // Y Lines// 
+
+    // Y Lines//
     WChartGridLineDTO wChartGridLineDTOY1 = new WChartGridLineDTO();
         wChartGridLineDTOY1.setCssClass("class2");
         wChartGridLineDTOY1.setPosition(GridAxesPositionTextEnum.END);
         wChartGridLineDTOY1.setText("LINE1");
         wChartGridLineDTOY1.setValue(45);
-        
+
         WChartGridLineDTO wChartGridLineDTOY2 = new WChartGridLineDTO();
         wChartGridLineDTOY2.setCssClass("class2");
         wChartGridLineDTOY2.setPosition(GridAxesPositionTextEnum.END);
@@ -2245,7 +2324,7 @@ data type the property accepts - (WChartGridLineDTO)<br>
         wChartGridLineDTOY3.setPosition(GridAxesPositionTextEnum.END);
         wChartGridLineDTOY3.setText("LINE3");
         wChartGridLineDTOY3.setValue(66);
-        
+
         arrayListLinesY.add(wChartGridLineDTOY1);
         arrayListLinesY.add(wChartGridLineDTOY2);
         arrayListLinesY.add(wChartGridLineDTOY3);
@@ -2266,7 +2345,7 @@ private void callArrayLines(wChartSeriesListDTO) {
 In the evolution graph, it is necessary to transform the values, when the X-axis ruler is for years, to render the graph correctly.<br><br>
 **Example:** <br>
 if the month is 1 (January), it is necessary to transform it to 0.333..., to month placement is correct.<br>
-To activate the rules mode on the x-axis, it is necessary to pass 2 parameters, one of which is mandatory, 
+To activate the rules mode on the x-axis, it is necessary to pass 2 parameters, one of which is mandatory,
 <br>
 valueX => valueX / 3; || valueX => (valueX / 12) * 4;<br>
 
@@ -2288,19 +2367,119 @@ data type the property accepts - (WChartGridLineDTO)<br>
 wChartSeriesListDTO.getChartProperties().setYearInitialRulerTickAxisX(5);
 ```
 
-# Vital signs and signs and hemodynamic monitoring Chart <br>
-In the vital signs and signs and hemodynamic monitoring graph, it
-is necessary to add the LINE_CHART_JS type in the chart. to use the chartJS library and use pointStyle. For 
-the vital signs chart to be rendered, you need to pass the data via series (as is done in pie charts), 
-each series will be a line on the chart.
+# Line Chart JS - (Vital signs) <br>
+The "LINE_CHART_JS" type chart basically has the same structure as the "LINE" type, but it was created so that we can customize the 'point styles'.</br>
+
+To use the 'LINE_CHART_JS' type chart, we need to make the change via 'BACKEND', as this type of chart is a motivation of the 'LINE' type, so to use it we have to make some configurations and change the default 'Line' type.</br>
 
 
-```java I'm tab B
-wChartSeriesListDTO.getChartProperties().setType(SerieType.LINE_CHART_JS);
-wChartSeriesListDTO.getChartProperties().addPointsStyles(PointStyleEnum.CIRCLE);
+#### :warning: Note:
+_The functionality of the chart types 'LINE' and 'LINE_CHART_JS' have practically the same behaviors.</br>
+However, in order to customize the 'point styles', we had to use another graphics library and, for this reason, there may be a small visual or behavioral difference between them._
+
+
+#### :pencil2: Examples: <br>
+
+_Setting to change chart type to 'LINE_CHART_JS'_<br>
+```java
+WChartProperties chartProperties = new WChartProperties();
+chartProperties.setType(SerieType.LINE_CHART_JS);
 ```
 
+_Configuration to change point style, we have these options: 'CIRCLE', 'CROSS', 'CROSS_ROT', 'DASH', 'LINE', 'RECT', 'RECT_ROUNDED', 'RECT_ROT', 'STAR', 'TRIANGLE'_<br>
 
+```java
+WChartProperties chartProperties = new WChartProperties();
+chartProperties.addPointsStyles(PointStyleEnum.CIRCLE);
+```
+
+#### Full Example:
+```java
+import br.com.philips.tasy.dto.shared.wchart.WChartProperties;
+import br.com.philips.tasy.dto.shared.wchart.WChartSeriesDTO;
+import br.com.philips.tasy.dto.shared.wchart.WChartSeriesValueDTO;
+import br.com.wheb.action.wChart.AbstractWChartPostProcessingAction;
+import br.com.wheb.annotations.NamedAction;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+@NamedAction(name = "postProcessSeries", referedInterface = AbstractWChartPostProcessingAction.class)
+public class TecTesF1WChartPostProcessingAction extends AbstractWChartPostProcessingAction {
+
+    @Override
+    public ArrayList<WChartSeriesDTO> build(ArrayList<WChartSeriesDTO> series, Integer dictionaryCode, Map<String, Object> params,
+                                            ArrayList<HashMap> aditionalSeries, Map<String, Object> filterValues, WChartProperties chartProperties) {
+        ArrayList<WChartSeriesValueDTO> values1stSerie = new ArrayList();
+        ArrayList<WChartSeriesValueDTO> values2ndSerie = new ArrayList();
+        ArrayList<WChartSeriesValueDTO> values3rdSerie = new ArrayList();
+        ArrayList<WChartSeriesValueDTO> values4thSerie = new ArrayList();
+        String[] dates = {
+            "01/07/2018",
+            "02/07/2018",
+            "03/07/2018",
+            "04/07/2018",
+            "05/07/2018",
+            "06/07/2018",
+            "07/07/2018",
+            "08/07/2018",
+            "09/07/2018",
+            "10/07/2018",
+        };
+
+        for (int i = 0; i < 10; i++) {
+            values1stSerie.add(createValueDTO(dates[i],400 - 10 * i));
+            values2ndSerie.add(createValueDTO(dates[i],50 * i));
+            values3rdSerie.add(createValueDTO(dates[i],200 - 2 * i));
+            if (i == 1) {
+                values4thSerie.add(createValueDTO(dates[i], 0));
+            } else {
+                values4thSerie.add(createValueDTO(dates[i],100 * i - 75));
+            }
+        }
+
+        for (WChartSeriesValueDTO value : values1stSerie) {
+            series.get(0).getValues().add(value);
+        }
+        for (WChartSeriesValueDTO value : values2ndSerie) {
+            series.get(1).getValues().add(value);
+        }
+        for (WChartSeriesValueDTO value : values3rdSerie) {
+            series.get(2).getValues().add(value);
+        }
+        for (WChartSeriesValueDTO value : values4thSerie) {
+            series.get(3).getValues().add(value);
+        }
+
+        // Configuration of chart properties 'LINE_CHART_JS'
+        // Sets to type 'LINE_CHART_JS'
+        chartProperties.setType(SerieType.LINE_CHART_JS);
+
+        // Sets 'point style' of the FIRST series to type 'TRIANGLE'
+        chartProperties.addPointsStyles(PointStyleEnum.TRIANGLE);
+
+        // Sets 'point style' of the SECOND series to type 'STAR'
+        chartProperties.addPointsStyles(PointStyleEnum.STAR);
+
+        // Sets 'point style' of the THIRD series to type 'CIRCLE'
+        chartProperties.addPointsStyles(PointStyleEnum.CIRCLE);
+
+        // Sets 'point style' of the FOURTH series to type 'RECT_ROUNDED'
+        chartProperties.addPointsStyles(PointStyleEnum.RECT_ROUNDED);
+
+        return series;
+    }
+
+    private WChartSeriesValueDTO createValueDTO(Object axisX, Object axisY) {
+        WChartSeriesValueDTO value = new WChartSeriesValueDTO();
+        value.setPrediction(true);
+        value.setValueAxisX(axisX);
+        value.setValueAxisY(axisY);
+        return value;
+    }
+}
+```
 
 
 # Input and output chart <br>
@@ -2309,12 +2488,12 @@ In positive scale or negative scale
 #### :pencil2: Example<br>
 ```java I'm tab B
 ValuesBreakDTO valuesBreakDTO = new ValuesBreakDTO();
-        
+
         ValueBreakDTO positive = new ValueBreakDTO();
         positive.setInitial(50.0);
         positive.setInterval(100.0);
         positive.setMax(40000.0);
-        
+
         ValueBreakDTO negative = new ValueBreakDTO();
         negative.setInitial(-50.0);
         negative.setInterval(-100.0);
