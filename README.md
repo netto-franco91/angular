@@ -198,7 +198,7 @@ export default class StackedBarChartTest extends WChart {
 - [renderChart](#renderChart)
 - [setYAxisMaxValue](#setYAxisMaxValue)
 - [getYAxisMaxValue](#getYAxisMaxValue)
-- [setYAxisMinValue](#setYAxisMinValue)
+- [<s>setYAxisMinValue<s>](#setYAxisMinValue)
 - [getYAxisMinValue](#getYAxisMinValue)
 - [activate](#activate)
 - [addSerie](#addserie)
