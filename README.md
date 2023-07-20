@@ -198,7 +198,7 @@ export default class StackedBarChartTest extends WChart {
 - [renderChart](#renderChart)
 - [setYAxisMaxValue](#setYAxisMaxValue)
 - [getYAxisMaxValue](#getYAxisMaxValue)
-- [<s>setYAxisMinValue<s>](#setYAxisMinValue)
+- [setYAxisMinValue](#setYAxisMinValue)
 - [getYAxisMinValue](#getYAxisMinValue)
 - [activate](#activate)
 - [addSerie](#addserie)
@@ -343,7 +343,7 @@ export default class TotalPatientsWC extends PFCSChartBase {
 }
 ```
 
-### setYAxisMaxValue
+### setYAxisMaxValue - (This method is currently unused)
 ----
 #### :page_with_curl: Description
 Set a maximum value to the y axis in a chart<br>
@@ -367,7 +367,7 @@ export default class MyChart extends WChart  {
 }
 ```
 
-### getYAxisMaxValue - (This method is currently unused)
+### getYAxisMaxValue
 ----
 #### :page_with_curl: Description
 Get the maximum value of the y axis in a chart<br>
@@ -388,25 +388,12 @@ export default class MyChart extends WChart  {
 }
 ```
 
-### setYAxisMinValue - (This method is currently unused)
+### <s>setYAxisMinValue</s>
 ----
 #### :page_with_curl: Description
-Set a minimum value to the y axis in a chart<br>
-
-#### :bookmark_tabs: Parameters
-**yAxisMaxValue:** _(number)_ minimum to the y axis to be used in the chart <br>
-
-#### :leftwards_arrow_with_hook: Return
-Not available. <br>
-
-#### :pencil2: Example
-```javascript
-@Controller({ domain: 'atepac/AtePacAA', code: 123456 })
-export default class MyChart extends WChart  {
-  onLoad() {
-    this.handler.setYAxisMinValue(0);
-  }
-}
+This method is currently unused<br>
+Yuo can use this method to set Y axis minimum value
+- [setRangeAxes](#setRangeAxes)
 ```
 
 ### getYAxisMinValue
