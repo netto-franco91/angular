@@ -373,7 +373,7 @@ export default class MyChart extends WChart  {
 }
 ```
 
-### <s>setYAxisMinValue>/s>
+### <s>setYAxisMinValue</s>
 ----
 #### :page_with_curl: Description
 (This method is currently unused)<br>
