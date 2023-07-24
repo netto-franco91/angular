@@ -2365,6 +2365,21 @@ _Configuration to change point style, we have these options: 'CIRCLE', 'CROSS', 
 WChartProperties chartProperties = new WChartProperties();
 chartProperties.addPointsStyles(PointStyleEnum.CIRCLE);
 ```
+_Configuration to set lines colors'_<br>
+
+```java
+WChartProperties chartProperties = new WChartProperties();
+ArrayList<String> linesColors = new ArrayList<>();
+linesColors.add("#4F4F4F");
+linesColors.add("#836FFF");
+linesColors.add("#000080");
+linesColors.add("#00BFFF");
+linesColors.add("#00CED1");
+linesColors.add("#DAA520");
+linesColors.add("#DDA0DD");
+linesColors.add("#FF1493");
+chartProperties.setLinesColors(linesColors);;
+```
 
 #### Full Example:
 ```java
