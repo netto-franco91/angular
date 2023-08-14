@@ -2344,8 +2344,8 @@ wChartSeriesListDTO.getChartProperties().setYearInitialRulerTickAxisX(5);
 
 # Area_Line Chart<br>
 The "AREA_LINE" type chart uses two series: area and line within the same rendering.This makes it possible for the user to visualize a set of data graphically.</br>
-
-To use the 'AREA_LINE_' type chart, you need to make some settings:</br>
+>[!NOTE]
+>To use the 'AREA_LINE_' type chart, you need to make some settings:
 
 <b>- **It is necessary to set via handler all the values ​​of the Chart series.**</b> <br>
 To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.<br>
