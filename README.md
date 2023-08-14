@@ -6,7 +6,7 @@ This component is used to display various types of graphs.
 - [Handler Methods](#handler-methods)
 - [Methods](#methods)
 - [Area-Line Chart](#area_line-chart)
-- [Area-Line Chart](#line-chart-js---vital-sign)
+- [Area-Line Chart](#line-chart-js---vital-signs)
 
 ## Custom range on Histogram
 
