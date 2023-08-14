@@ -22,18 +22,27 @@ To set the series of the Chart via the handler, the 'addAllSeries' function was 
 
 #### Example
 ```javascript
-const Y = [50, 100, 200];
-const X = ['Cars', 'Motorcycles', 'Trains'];
-
-handler.addSerie('TRANSPORTATIONS', 'People vs. Transportations', '#C3C3C3', Y, X);
-
-const Y2 = [10, 20, 30];
-
-handler.addSerie('ANIMALS', 'Animals who ride transports', undefined, Y2);
-
-const Y3 = [50, 500, 700];
-
-handler.addSerie('BBIRDS', 'Birds', undefined, Y3, undefined, 'line');
+const data: {
+        columns: [
+            ['data1', 900, 900, 900, 900, 900, 900],
+            ['data2', 200, 130, 90, 240, 130, 220],
+            ['data3', 300, 200, 160, 400, 250, 250],
+            ['data4', 130, 120, 150, 140, 160, 150],
+            ['data5', 100, 100, 100, 100, 100, 100],
+        ],
+        type: 'area_line',
+        types: {
+            data1: 'area',
+            data2: 'area',
+            data3: 'line',
+            data4: 'area',
+            data5:'area'
+        },
+        groups: [
+            ['data1','data2', 'data3', 'data4']
+        ]
+    }
+handler.addAllSerie(data);
 ```
 
 #### Full Example:
