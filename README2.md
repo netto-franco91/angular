@@ -15,7 +15,7 @@ type:'area_line',
 })
 ```
 #### 2º - É preciso setar via handler todos os valores das series do Chart. <br>
-To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries..
+To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.
 
 ```java
 WChartProperties chartProperties = new WChartProperties();
