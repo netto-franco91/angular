@@ -3,7 +3,7 @@ The "AREA_LINE_CHART_JS" type chart uses two series: area and line within the sa
 
 To use the 'AREA_LINE_CHART_JS' type chart, you need to make some settings:</br>
 
-# 1º -First configuration to be done, is to set the graph type to area_line.
+<b>1º -First configuration to be done, is to set the graph type to area_line.</b>
 
 #### :pencil2: Examples: <br>
 
