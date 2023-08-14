@@ -12,7 +12,7 @@ Series LINE => the series of the line type will be the graph that will have the 
 #### :bookmark_tabs: Parameters
 **data:** _(Object)_ All graph series, both areas and lines. <br>
 
-#### Example
+#### :pencil2: Examples: <br>
 ```javascript
 const data: {
         columns: [
