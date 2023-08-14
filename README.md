@@ -204,7 +204,7 @@ export default class StackedBarChartTest extends WChart {
 - [getYAxisMinValue](#getYAxisMinValue)
 - [activate](#activate)
 - [addSerie](#addserie)
-- [addAllSerie](#addAllSerie)
+- [addAllSeries](#addAllSeries)
 - [addSerieToDontShowMarker](#addserietodontshowmarker)
 - [removeSerieFromDontShowMarker](#removeseriefromdontshowmarker)
 - [setSortFunction](#setsortfunction)
@@ -2354,7 +2354,7 @@ To set the series of the Chart via the handler, the 'addAllSeries' function was 
 >Series AREA => remembering that the series of type area will be used only to assemble the back part, the backgound of the graphic, just for visual effects.<br>
 Series LINE => the series of the line type will be the graph that will have the reference points meeting between the X, Y axes that when passing the mouse over will present the tooltip with the complementary information..
 
-### addAllSerie
+### addAllSeries
 This method is use just for area-line charts<br>
 This methosd adds all the news series to the area-line.
 
