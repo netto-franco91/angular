@@ -2342,7 +2342,7 @@ data type the property accepts - (WChartGridLineDTO)<br>
 wChartSeriesListDTO.getChartProperties().setYearInitialRulerTickAxisX(5);
 ```
 
-### Area_Line Chart<br>
+# Area_Line Chart<br>
 The "AREA_LINE" type chart uses two series: area and line within the same rendering.</br>
 
 To use the 'AREA_LINE_' type chart, you need to make some settings:</br>
