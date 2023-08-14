@@ -9,12 +9,13 @@ _1º -First configuration to be done, is to set the graph type to area_line._
 
 _Setting to change chart type to 'AREA_LINE'_<br>
 ```java
-setChartProperties({
+a = angular.element($0).scope()
+a.handler.setChartProperties({
 type:'area_line',
 })
 ```
-
-_Configuration to change point style, we have these options: 'CIRCLE', 'CROSS', 'CROSS_ROT', 'DASH', 'LINE', 'RECT', 'RECT_ROUNDED', 'RECT_ROT', 'STAR', 'TRIANGLE'_<br>
+_2º - É preciso setar via handler todos os valores das series do Chart._
+To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.
 
 ```java
 WChartProperties chartProperties = new WChartProperties();
