@@ -14,27 +14,23 @@ a.handler.setChartProperties({
 type:'area_line',
 })
 ```
-<b> 2º - É preciso setar via handler todos os valores das series do Chart.</b> <br>
+<b> 2º - It is necessary to set via handler all the values ​​of the Chart series.</b> <br>
 To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.
 
-```java
-WChartProperties chartProperties = new WChartProperties();
-chartProperties.addPointsStyles(PointStyleEnum.CIRCLE);
-```
-_Configuration to set lines colors_<br>
+#### Example
+```javascript
+const Y = [50, 100, 200];
+const X = ['Cars', 'Motorcycles', 'Trains'];
 
-```java
-WChartProperties chartProperties = new WChartProperties();
-ArrayList<String> linesColors = new ArrayList<>();
-linesColors.add("#4F4F4F");
-linesColors.add("#836FFF");
-linesColors.add("#000080");
-linesColors.add("#00BFFF");
-linesColors.add("#00CED1");
-linesColors.add("#DAA520");
-linesColors.add("#DDA0DD");
-linesColors.add("#FF1493");
-chartProperties.setLinesColors(linesColors);
+handler.addSerie('TRANSPORTATIONS', 'People vs. Transportations', '#C3C3C3', Y, X);
+
+const Y2 = [10, 20, 30];
+
+handler.addSerie('ANIMALS', 'Animals who ride transports', undefined, Y2);
+
+const Y3 = [50, 500, 700];
+
+handler.addSerie('BBIRDS', 'Birds', undefined, Y3, undefined, 'line');
 ```
 
 #### Full Example:
