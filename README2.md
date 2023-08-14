@@ -3,7 +3,7 @@ The "AREA_LINE_CHART_JS" type chart uses two series: area and line within the sa
 
 To use the 'AREA_LINE_CHART_JS' type chart, you need to make some settings:</br>
 
-#### 1º -First configuration to be done, is to set the graph type to area_line.
+# 1º -First configuration to be done, is to set the graph type to area_line.
 
 #### :pencil2: Examples: <br>
 
@@ -14,7 +14,7 @@ a.handler.setChartProperties({
 type:'area_line',
 })
 ```
-#### 2º - É preciso setar via handler todos os valores das series do Chart. <br>
+# 2º - É preciso setar via handler todos os valores das series do Chart. <br>
 To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.
 
 ```java
