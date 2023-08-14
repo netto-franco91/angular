@@ -42,7 +42,7 @@ handler.addAllSerie(data);
 #### :pencil2: Examples: <br>
 
 _Setting to change chart type to 'AREA_LINE'_<br>
-```java
+```javascript
     const chartData = {
       data,
       chartProperties: {
