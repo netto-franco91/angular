@@ -1,12 +1,13 @@
-# Line Chart JS - (Vital signs) <br>
-The "LINE_CHART_JS" type chart basically has the same structure as the "LINE" type, but it was created so that we can customize the 'point styles'.</br>
+# Area_Line Chart JS - (Vital signs) <br>
+The "AREA_LINE_CHART_JS" type chart uses two series: area and line within the same rendering.</br>
 
-To use the 'LINE_CHART_JS' type chart, we need to make the change via 'BACKEND', as this type of chart is a motivation of the 'LINE' type, so to use it we have to make some configurations and change the default 'Line' type.</br>
-
+To use the 'AREA_LINE_CHART_JS' type chart, you need to make some settings:</br>
 
 #### :warning: Note:
 _The functionality of the chart types 'LINE' and 'LINE_CHART_JS' have practically the same behaviors.</br>
 However, in order to customize the 'point styles', we had to use another graphics library and, for this reason, there may be a small visual or behavioral difference between them._
+
+1º -First configuration to be done, is to set the graph type to area_line
 
 
 #### :pencil2: Examples: <br>
