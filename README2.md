@@ -51,5 +51,5 @@ const chartData = {
     propertiesNew: {}
   }
 };
-    this.chartData = chartData;
+this.chartData = chartData;
 ```
