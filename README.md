@@ -204,6 +204,7 @@ export default class StackedBarChartTest extends WChart {
 - [getYAxisMinValue](#getYAxisMinValue)
 - [activate](#activate)
 - [addSerie](#addserie)
+- [addAllSerie](#addAllSerie)
 - [addSerieToDontShowMarker](#addserietodontshowmarker)
 - [removeSerieFromDontShowMarker](#removeseriefromdontshowmarker)
 - [setSortFunction](#setsortfunction)
@@ -2353,6 +2354,10 @@ To set the series of the Chart via the handler, the 'addAllSeries' function was 
 >Series AREA => remembering that the series of type area will be used only to assemble the back part, the backgound of the graphic, just for visual effects.<br>
 Series LINE => the series of the line type will be the graph that will have the reference points meeting between the X, Y axes that when passing the mouse over will present the tooltip with the complementary information..
 
+### addAllSerie
+This method is use just for area-line charts<br>
+This methosd adds all the news series to the area-line.
+
 #### :bookmark_tabs: Parameters
 **data:** _(Object)_ All graph series, both areas and lines. <br>
 
@@ -2539,7 +2544,6 @@ public class TecTesF1WChartPostProcessingAction extends AbstractWChartPostProces
     }
 }
 ```
-
 
 # Input and output chart <br>
 In the Input Output graph, it is necessary to pass one more value to the backend if it is necessary to make the jump in scale.<br><br>
