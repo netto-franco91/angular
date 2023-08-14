@@ -3,19 +3,15 @@ The "AREA_LINE_CHART_JS" type chart uses two series: area and line within the sa
 
 To use the 'AREA_LINE_CHART_JS' type chart, you need to make some settings:</br>
 
-#### :warning: Note:
-_The functionality of the chart types 'LINE' and 'LINE_CHART_JS' have practically the same behaviors.</br>
-However, in order to customize the 'point styles', we had to use another graphics library and, for this reason, there may be a small visual or behavioral difference between them._
-
-1º -First configuration to be done, is to set the graph type to area_line
-
+_1º -First configuration to be done, is to set the graph type to area_line._
 
 #### :pencil2: Examples: <br>
 
-_Setting to change chart type to 'LINE_CHART_JS'_<br>
+_Setting to change chart type to 'AREA_LINE'_<br>
 ```java
-WChartProperties chartProperties = new WChartProperties();
-chartProperties.setType(SerieType.LINE_CHART_JS);
+setChartProperties({
+type:'area_line',
+})
 ```
 
 _Configuration to change point style, we have these options: 'CIRCLE', 'CROSS', 'CROSS_ROT', 'DASH', 'LINE', 'RECT', 'RECT_ROUNDED', 'RECT_ROT', 'STAR', 'TRIANGLE'_<br>
