@@ -5,7 +5,7 @@ This component is used to display various types of graphs.
 - [Events](#events)
 - [Handler Methods](#handler-methods)
 - [Methods](#methods)
-- [Area-Line Chart](#Area_Line)
+- [Area-Line Chart](#area-line)
 
 ## Custom range on Histogram
 
