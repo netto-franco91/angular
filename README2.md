@@ -6,7 +6,7 @@ To use the 'AREA_LINE_CHART_JS' type chart, you need to make some settings:</br>
 <b>1º - First configuration to be done, is to set the graph type to area_line.</b>
 
 #### :bookmark_tabs: Parameters
-**data:** _(Object)_ Todas as séries do gráfico, tanto as areas como as linhas. <br>
+**data:** _(Object)_ All graph series, both areas and lines. <br>
 
 #### :pencil2: Examples: <br>
 
