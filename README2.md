@@ -3,26 +3,15 @@ The "AREA_LINE_CHART_JS" type chart uses two series: area and line within the sa
 
 To use the 'AREA_LINE_CHART_JS' type chart, you need to make some settings:</br>
 
-<b>1º - First configuration to be done, is to set the graph type to area_line.</b>
-
-#### :bookmark_tabs: Parameters
-**data:** _(Object)_ All graph series, both areas and lines. <br>
-
-#### :pencil2: Examples: <br>
-
-_Setting to change chart type to 'AREA_LINE'_<br>
-```java
-a = angular.element($0).scope()
-a.handler.setChartProperties({
-type:'area_line',
-})
-```
-<b> 2º - It is necessary to set via handler all the values ​​of the Chart series.</b> <br>
+<b>It is necessary to set via handler all the values ​​of the Chart series.</b> <br>
 To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.
 
 #### :paperclip: Note
 Series AREA => remembering that the series of type area will be used only to assemble the back part, the backgound of the graphic, just for visual effects.<br>
 Series LINE => the series of the line type will be the graph that will have the reference points meeting between the X, Y axes that when passing the mouse over will present the tooltip with the complementary information.
+
+#### :bookmark_tabs: Parameters
+**data:** _(Object)_ All graph series, both areas and lines. <br>
 
 #### Example
 ```javascript
@@ -47,4 +36,21 @@ const data: {
         ]
     }
 handler.addAllSerie(data);
+```
+
+<b>Set chart type to AREA_LINE in Chart settings</b>
+
+#### :pencil2: Examples: <br>
+
+_Setting to change chart type to 'AREA_LINE'_<br>
+```java
+    const chartData = {
+      data,
+      chartProperties: {
+        title: chartTitle,
+        type: 'area_line',
+        propertiesNew: {}
+      }
+    };
+    this.chartData = chartData;
 ```
