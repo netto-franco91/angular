@@ -7,7 +7,7 @@ To use the 'AREA_LINE_CHART_JS' type chart, you need to make some settings:</br>
 To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.<br>
  >[!IMPORTANT]
    >Series AREA => remembering that the series of type area will be used only to assemble the back part, the backgound of the graphic, just for visual effects.<br>
-Series LINE => the series of the line type will be the graph that will have the reference points meeting between the X, Y axes that when passing the mouse over will present the tooltip with the complementary information..
+Series LINE => the series of the line type will be the graph that will have the reference points meeting between the X, Y axes that when passing the mouse over will present the tooltip with the complementary information.
 
 #### :bookmark_tabs: Parameters
 **data:** _(Object)_ All graph series, both areas and lines. <br>
@@ -53,3 +53,7 @@ const chartData = {
 };
 this.chartData = chartData;
 ```
+
+ >[!SUCCESS]
+   >Series AREA => remembering that the series of type area will be used only to assemble the back part, the backgound of the graphic, just for visual effects.<br>
+Series LINE => the series of the line type will be the graph that will have the reference points meeting between the X, Y axes that when passing the mouse over will present the tooltip with the complementary information.
