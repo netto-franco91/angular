@@ -2356,7 +2356,7 @@ Series LINE => the series of the line type will be the graph that will have the 
 
 ### addAllSeries
 This method is use just for area-line charts<br>
-This methosd adds all the news series to the area-line.
+This method adds all the news series to the area-line.
 
 #### :bookmark_tabs: Parameters
 **data:** _(Object)_ All graph series, both areas and lines. <br>
