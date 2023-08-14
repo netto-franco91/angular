@@ -43,13 +43,13 @@ handler.addAllSerie(data);
 
 _Setting to change chart type to 'AREA_LINE'_<br>
 ```javascript
-    const chartData = {
-      data,
-      chartProperties: {
-        title: chartTitle,
-        type: 'area_line',
-        propertiesNew: {}
-      }
-    };
+const chartData = {
+ data,
+  chartProperties: {
+    title: chartTitle,
+    type: 'area_line',
+    propertiesNew: {}
+  }
+};
     this.chartData = chartData;
 ```
