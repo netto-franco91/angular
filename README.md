@@ -976,7 +976,8 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
   ##### Example:
   ```javascript
    //If you want to set values ​​for both axes -> Y axis and X axis
-   handler.setAxisValues('y', [2, 4, 6, 8, 10, 12, 14, 16], 'x', [2, 4, 6, 8, 10, 12, 14, 16])
+   //In this exemple we have 2 numbers at interval for Y axis, and 3 numbers at interval for X axis 
+   handler.setAxisValues('y', [2, 4, 6, 8, 10, 12, 14, 16], 'x', [3, 6, 9, 12, 15, 18, 21])
    //If you want to set values ​​for the Y-axis, you must pass the X-axis parameter [].
    handler.setAxisValues('y', [2, 4, 6, 8, 10, 12, 14, 16], 'x', [])
   ```
