@@ -2403,7 +2403,7 @@ const chartData = {
 this.chartData = chartData;
 ```
 
-
+------
 # Line Chart JS - (Vital signs)<br>
 The "LINE_CHART_JS" type chart basically has the same structure as the "LINE" type, but it was created so that we can customize the 'point styles'.</br>
 
