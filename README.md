@@ -2451,7 +2451,7 @@ const chartData = {
 };
 this.chartData = chartData;
 ```
-#### :paperclip: Note
+#### :warning: Attention
 It is necessary to go month by month, that is, all the months of the X axis.<br>
 if you want to show data from 5 years to 8 years for example, you will have to pass the X axis as [60, 61, 62, 63.. etc], where 60 = 5 years and 61 = 5 years and one month and so on.<br>
 This is necessary so that the framework can do the calculation<br>
