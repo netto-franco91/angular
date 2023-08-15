@@ -242,8 +242,8 @@ export default class StackedBarChartTest extends WChart {
 - [getShowAverageLine](#getShowAverageLine)
 - [addLabelLastValue](#addLabelLastValue)
 - [setRangeAxes](#setRangeAxes)
-
-
+- [setAxisValues](#setAxisValues)
+  
 ### showDonutCenterText
 ----
 #### :page_with_curl: Description
@@ -965,6 +965,21 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
    handler.setRangeAxes('x', '10-05-2015 00:00:00', '10-05-2015 23:59:59');
   ```
 
+  * #### setAxisValues
+  Set axes values. In this way, you can determine the interval you want between the values.
+
+  | Params | Type | Description |
+  | --- | --- | --- |
+  | axis | String | The axis: **x** or **y** |
+  | initialRange | **Number** | The values for axes Y and X |
+
+  ##### Example:
+  ```javascript
+   //If you want to set values ​​for both axes -> Y axis and X axis
+   handler.setAxisValues('y', [2, 4, 6, 8, 10, 12, 14, 16], 'x', [2, 4, 6, 8, 10, 12, 14, 16])
+   //If you want to set values ​​for the Y-axis, you must pass the X-axis parameter [].
+   handler.setAxisValues('y', [2, 4, 6, 8, 10, 12, 14, 16], 'x', [])
+  ```
 
   * #### setSeriesColor
   Define the series color.
