@@ -968,7 +968,7 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
   * #### setAxisValues
   Set axes values.<br> 
   In this way, you can determine the interval you want between the values.<br>
-  Yiu can determinate the inicial value, and the final value for the axes.
+  You can determinate the inicial value, and the final value for the axes.
 
   | Params | Type | Description |
   | --- | --- | --- |
