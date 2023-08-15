@@ -2466,6 +2466,7 @@ _Setting X-axis values to use as a ruler_<br>
 //62 = 5 years + two months ... so on...
    handler.setAxisValues('y', [], 'x', [60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96])
 ```
+<br>
 >[!IMPORTANT]
 > if you are going to use the ruler for X-axis, you cannot pass the max and min values for X-axis ​​using the setRangeAxes method.<br>
 > if you are going to set max and min values for the axis, using the setRangeAxes method, you don´t have to use the setAxisValues method. you must use either one or the other.<br>
