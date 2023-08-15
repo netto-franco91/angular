@@ -2348,7 +2348,7 @@ The "AREA_LINE" type chart uses two series: area and line within the same render
 >[!NOTE]
 >To use the 'AREA_LINE_' type chart, you need to make some settings:
 
-<b> **It is necessary to set via handler all the values ​​of the Chart series.** </b> <br>
+<b><summary> **It is necessary to set via handler all the values ​​of the Chart series.**</sumary> </b> <br>
 To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.<br>
 >[!IMPORTANT]
 >Series AREA => remembering that the series of type area will be used only to assemble the back part, the backgound of the graphic, just for visual effects.<br>
@@ -2386,7 +2386,7 @@ const data: {
 handler.addAllSerie(data);
 ```
 
-<b> **Set chart type to AREA_LINE in Chart settings**</b>
+<b><summary> **Set chart type to AREA_LINE in Chart settings**</sumary</b>
 
 #### :pencil2: Examples: <br>
 
