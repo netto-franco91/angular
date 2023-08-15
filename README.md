@@ -2412,7 +2412,7 @@ const data: {
 handler.addAllSerie(data);
 ```
 
-<b><summary> **Set chart type to AREA_LINE in Chart settings**</sumary</b>
+<b><summary> **Set chart type to AREA_LINE in Chart settings**</sumary></b>
 
 #### :pencil2: Examples: <br>
 
