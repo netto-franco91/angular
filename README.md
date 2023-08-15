@@ -2451,7 +2451,17 @@ this.chartData = chartData;
 ```
 #### :paperclip: Note
 It is necessary to go month by month, that is, all the months of the X axis.<br>
-if you want to show data from 5 to 19 years for example, you will have to pass the X axis as [60, 61, 62, 63.. etc], where 60 = 5 years and 61 = 5 years and one month and so on.<br>
+if you want to show data from 5 years to 8 years for example, you will have to pass the X axis as [60, 61, 62, 63.. etc], where 60 = 5 years and 61 = 5 years and one month and so on.<br>
+  #### :pencil2: Examples: <br>
+
+_Setting X-axis values to use as a ruler_<br>
+```javascript
+//here we are setting the Y-axis [], and the X-axis whith the months between 5 years and 8 years.
+//start in 60 because 5 x 12 = 60 meses
+//61 = 5 years + 1 month
+//62 = 5 years + two months ... so on...
+   handler.setAxisValues('y', [], 'x', [60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96])
+```
 
 ------
 # Line Chart JS - (Vital signs)<br>
