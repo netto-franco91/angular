@@ -2403,9 +2403,10 @@ const chartData = {
 };
 this.chartData = chartData;
 ```
+#### It is possible to activate the X axis to use as a ruler passing month/year.
 To activate the X-axis with the month/year ruler, we have to pass these two pieces of information through the 'setChartProperties' function:<br>
 - yearInitialRulerTickAxisX = 5; // starting year of chart<br>
-- YearFinalRulerTickAxisX = 19; // final year of chart.<br>
+- YearFinalRulerTickAxisX = 19; // final year of chart.
 #### :paperclip: Note
 It is necessary to go month by month, that is, all the months of the X axis.<br>
 if you want to show data from 5 to 19 years for example, you will have to pass the X axis as [60, 61, 62, 63.. etc], where 60 = 5 years and 61 = 5 years and one month and so on.<br>
