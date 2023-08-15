@@ -2370,12 +2370,12 @@ wChartSeriesListDTO.getChartProperties().setYearInitialRulerTickAxisX(5);
 ```
 ------
 # Area_Line Chart<br>
-The "AREA_LINE" type chart uses two series: area and line within the same rendering.This makes it possible for the user to visualize a set of data graphically.</br>
+The "AREA_LINE" type chart uses two series: area and line within the same rendering.This makes it possible for the user to visualize a set of data graphically.</br><br>
 >[!NOTE]
 >To use the 'AREA_LINE_' type chart, you need to make some configurations:
 
 <b><summary> **It is necessary to set via handler all the values ​​of the Chart series.**</sumary> </b> <br>
-To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.<br>
+To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.<br><br>
 >[!IMPORTANT]
 >Series AREA => remembering that the series of type area will be used only to assemble the back part, the backgound of the graphic, just for visual effects.<br>When setting area-type series, you need to set them to the end of your graph, so that the background is 100% filled with color.
 Series LINE => the series of the line type will be the graph that will have the reference points meeting between the X, Y axes that when passing the mouse over will present the tooltip with the complementary information..
@@ -2452,6 +2452,8 @@ this.chartData = chartData;
 #### :paperclip: Note
 It is necessary to go month by month, that is, all the months of the X axis.<br>
 if you want to show data from 5 years to 8 years for example, you will have to pass the X axis as [60, 61, 62, 63.. etc], where 60 = 5 years and 61 = 5 years and one month and so on.<br>
+This is necessary so that the framework can do the calculation<br>
+
   #### :pencil2: Examples: <br>
 
 _Setting X-axis values to use as a ruler_<br>
