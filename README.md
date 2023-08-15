@@ -982,8 +982,10 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
    //We can se here that the Y-axis have number 2 for inicial value, and number 16 for final value.
    //And we can se that the X-axis have number 3 for inicial value, and number 21 for final value.
    handler.setAxisValues('y', [2, 4, 6, 8, 10, 12, 14, 16], 'x', [3, 6, 9, 12, 15, 18, 21])
+
    //If you want to set values ​​just for the Y-axis, you must pass the X-axis parameter [].
    handler.setAxisValues('y', [2, 4, 6, 8, 10, 12, 14, 16], 'x', [])
+
    //If you want to set values ​​just for the X-axis, you must pass the Y-axis parameter [].
    handler.setAxisValues('y', [], 'x', [3, 6, 9, 12, 15, 18, 21])
   ```
