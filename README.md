@@ -2335,7 +2335,6 @@ data type the property accepts - (WChartGridLineDTO)<br>
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setYearFinalRulerTickAxisX(19);
 ```
-------
 **yearInitialScaleTickAxisX**<br>
 #### :page_with_curl: Description
 this parameter is used to say in which year it will start the axis scale, if the parameter is not passed, it will start at 0<br>
