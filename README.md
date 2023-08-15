@@ -2377,7 +2377,7 @@ The "AREA_LINE" type chart uses two series: area and line within the same render
 <b><summary> **It is necessary to set via handler all the values ​​of the Chart series.**</sumary> </b> <br>
 To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.<br>
 >[!IMPORTANT]
->Series AREA => remembering that the series of type area will be used only to assemble the back part, the backgound of the graphic, just for visual effects.<br>
+>Series AREA => remembering that the series of type area will be used only to assemble the back part, the backgound of the graphic, just for visual effects.<br>When setting area-type series, you need to set them to the end of your graph, so that the background is 100% filled with color.
 Series LINE => the series of the line type will be the graph that will have the reference points meeting between the X, Y axes that when passing the mouse over will present the tooltip with the complementary information..
 
 ### addAllSeries
@@ -2463,9 +2463,8 @@ _Setting X-axis values to use as a ruler_<br>
    handler.setAxisValues('y', [], 'x', [60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96])
 ```
 >[!IMPORTANT]
-<b>if you are going to use the ruler for X-axis, you cannot pass the max and min values for X-axis ​​using the setRangeAxes method.</b><br>
-<b>if you are going to set max and min values for the axis, using the setRangeAxes method, you don´t have to use the setAxisValues method. you must use either one or the other.</b><br>
-<b>When setting area-type series, you need to set them to the end of your graph, so that the background is 100% filled with color.</b>
+> if you are going to use the ruler for X-axis, you cannot pass the max and min values for X-axis ​​using the setRangeAxes method.<br>
+> if you are going to set max and min values for the axis, using the setRangeAxes method, you don´t have to use the setAxisValues method. you must use either one or the other.<br>
 
 ------
 # Line Chart JS - (Vital signs)<br>
