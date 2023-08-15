@@ -1,11 +1,11 @@
 # WChart
 This component is used to display various types of graphs.
 
-:small_blue_diamond: [Custom range on Histogram](#custom-range-on-histogram)
-:small_blue_diamond: [Events](#events)
-:small_blue_diamond: [Handler Methods](#handler-methods)
-:small_blue_diamond: [Methods](#methods)
-:small_blue_diamond: [Area-Line Chart](#area_line-chart)
+:small_blue_diamond: [Custom range on Histogram](#custom-range-on-histogram)<br>
+:small_blue_diamond: [Events](#events)<br>
+:small_blue_diamond: [Handler Methods](#handler-methods)<br>
+:small_blue_diamond: [Methods](#methods)<br>
+:small_blue_diamond: [Area-Line Chart](#area_line-chart)<br>
 :small_blue_diamond: [Line Chart JS](#line-chart-js---vital-signs)
 
 ## Custom range on Histogram
