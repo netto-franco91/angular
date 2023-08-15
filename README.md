@@ -970,8 +970,8 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   | Params | Type | Description |
   | --- | --- | --- |
-  | axis | String | The axis: **x** or **y** |
-  | initialRange | **Number** | The values for axes Y and X |
+  | axis | **String** | The axis: **x** or **y** |
+  | values | **Number** | The values for axes Y and X |
 
   ##### Example:
   ```javascript
