@@ -2410,7 +2410,22 @@ To activate the X-axis with the month/year ruler, we have to pass these two piec
 #### :paperclip: Note
 It is necessary to go month by month, that is, all the months of the X axis.<br>
 if you want to show data from 5 to 19 years for example, you will have to pass the X axis as [60, 61, 62, 63.. etc], where 60 = 5 years and 61 = 5 years and one month and so on.<br>
+#### :pencil2: Examples: <br>
 
+_Setting X axis to use as a ruler_<br>
+```javascript
+const chartData = {
+ data,
+  chartProperties: {
+    title: chartTitle,
+    type: 'area_line',
+    yearInitialRulerTickAxisX:5,
+    YearFinalRulerTickAxisX:19,
+    propertiesNew: {}
+  }
+};
+this.chartData = chartData;
+```
 ------
 # Line Chart JS - (Vital signs)<br>
 The "LINE_CHART_JS" type chart basically has the same structure as the "LINE" type, but it was created so that we can customize the 'point styles'.</br>
