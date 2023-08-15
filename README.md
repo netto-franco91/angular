@@ -5,8 +5,10 @@ This component is used to display various types of graphs.
 :small_blue_diamond: [Events](#events)<br>
 :small_blue_diamond: [Handler Methods](#handler-methods)<br>
 :small_blue_diamond: [Methods](#methods)<br>
+:small_blue_diamond: [Evolution Chart](#evolution-chart-)<br>
 :small_blue_diamond: [Area-Line Chart](#area_line-chart)<br>
 :small_blue_diamond: [Line Chart JS](#line-chart-js---vital-signs)
+evolution-chart-
 
 ## Custom range on Histogram
 
@@ -2342,7 +2344,7 @@ data type the property accepts - (WChartGridLineDTO)<br>
 ```java I'm tab B
 wChartSeriesListDTO.getChartProperties().setYearInitialRulerTickAxisX(5);
 ```
-
+------
 # Area_Line Chart<br>
 The "AREA_LINE" type chart uses two series: area and line within the same rendering.This makes it possible for the user to visualize a set of data graphically.</br>
 >[!NOTE]
@@ -2402,7 +2404,6 @@ const chartData = {
 };
 this.chartData = chartData;
 ```
-
 ------
 # Line Chart JS - (Vital signs)<br>
 The "LINE_CHART_JS" type chart basically has the same structure as the "LINE" type, but it was created so that we can customize the 'point styles'.</br>
