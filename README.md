@@ -2463,9 +2463,9 @@ _Setting X-axis values to use as a ruler_<br>
    handler.setAxisValues('y', [], 'x', [60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96])
 ```
 >[!IMPORTANT]
-<sumary> if you are going to use the ruler for X-axis, you cannot pass the max and min values for X-axis ​​using the setRangeAxes method.</sumary><br>
-<sumary> if you are going to set max and min values for the axis, using the setRangeAxes method, you don´t have to use the setAxisValues method. you must use either one or the other.</sumary><br>
-<sumary> Quando for setar as series do tipo área, é preciso setar até o final do seu gráfico, para que o fundo fique 100% preenchido com a cores.</sumary>
+### * if you are going to use the ruler for X-axis, you cannot pass the max and min values for X-axis ​​using the setRangeAxes method.</sumary><br>
+### * if you are going to set max and min values for the axis, using the setRangeAxes method, you don´t have to use the setAxisValues method. you must use either one or the other.</sumary><br>
+### * Quando for setar as series do tipo área, é preciso setar até o final do seu gráfico, para que o fundo fique 100% preenchido com a cores.</sumary>
 
 ------
 # Line Chart JS - (Vital signs)<br>
