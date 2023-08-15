@@ -8,7 +8,8 @@ This component is used to display various types of graphs.
 :small_blue_diamond: [Evolution Chart](#evolution-chart-)<br>
 :small_blue_diamond: [Area-Line Chart](#area_line-chart)<br>
 :small_blue_diamond: [Line Chart JS](#line-chart-js---vital-signs)
-evolution-chart-
+:small_blue_diamond: [Input and Output Chart](#input-and-output-chart-)<br>
+
 
 ## Custom range on Histogram
 
