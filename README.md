@@ -966,7 +966,9 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
   ```
 
   * #### setAxisValues
-  Set axes values. In this way, you can determine the interval you want between the values.
+  Set axes values.<br> 
+  In this way, you can determine the interval you want between the values.<br>
+  Yiu can determinate the inicial value, and the final value for the axes.
 
   | Params | Type | Description |
   | --- | --- | --- |
@@ -975,11 +977,15 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   ##### Example:
   ```javascript
-   //If you want to set values ​​for both axes -> Y axis and X axis
-   //In this exemple we have 2 numbers at interval for Y-axis, and 3 numbers at interval for X-axis 
+   //If you want to set values ​​for both axes -> Y axis and X axis.
+   //In this exemple we have 2 numbers at interval for Y-axis, and 3 numbers at interval for X-axis.
+   //We can se here that the Y-axis have number 2 for inicial value, and number 16 for final value.
+   //And we can se that the X-axis have number 3 for inicial value, and number 21 for final value.
    handler.setAxisValues('y', [2, 4, 6, 8, 10, 12, 14, 16], 'x', [3, 6, 9, 12, 15, 18, 21])
    //If you want to set values ​​just for the Y-axis, you must pass the X-axis parameter [].
    handler.setAxisValues('y', [2, 4, 6, 8, 10, 12, 14, 16], 'x', [])
+   //If you want to set values ​​just for the X-axis, you must pass the Y-axis parameter [].
+   handler.setAxisValues('y', [], 'x', [3, 6, 9, 12, 15, 18, 21])
   ```
 
   * #### setSeriesColor
