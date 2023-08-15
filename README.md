@@ -968,7 +968,7 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
   * #### setAxisValues
   Set axes values.<br> 
   In this way, you can determine the interval you want between the values.<br>
-  You can determinate the inicial value, and the final value for the axes.
+  You can determinate the inicial value, and the final value for each axis.
 
   | Params | Type | Description |
   | --- | --- | --- |
@@ -2372,7 +2372,7 @@ wChartSeriesListDTO.getChartProperties().setYearInitialRulerTickAxisX(5);
 # Area_Line Chart<br>
 The "AREA_LINE" type chart uses two series: area and line within the same rendering.This makes it possible for the user to visualize a set of data graphically.</br>
 >[!NOTE]
->To use the 'AREA_LINE_' type chart, you need to make some settings:
+>To use the 'AREA_LINE_' type chart, you need to make some configurations:
 
 <b><summary> **It is necessary to set via handler all the values ​​of the Chart series.**</sumary> </b> <br>
 To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.<br>
@@ -2465,7 +2465,7 @@ _Setting X-axis values to use as a ruler_<br>
 >[!IMPORTANT]
 <b>if you are going to use the ruler for X-axis, you cannot pass the max and min values for X-axis ​​using the setRangeAxes method.</b><br>
 <b>if you are going to set max and min values for the axis, using the setRangeAxes method, you don´t have to use the setAxisValues method. you must use either one or the other.</b><br>
-<b>Quando for setar as series do tipo área, é preciso setar até o final do seu gráfico, para que o fundo fique 100% preenchido com a cores.</b>
+<b>When setting area-type series, you need to set them to the end of your graph, so that the background is 100% filled with color.</b>
 
 ------
 # Line Chart JS - (Vital signs)<br>
