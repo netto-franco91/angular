@@ -998,7 +998,7 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   | Params | Type | Description |
   | --- | --- | --- |
-  | axis | **String** | The axis: **y** and **x** |
+  | axis | **String** | The axis: **y** or **x** |
   | values | **Number** | The initial value |
   | values | **Number** | The final value |
   | values | **Number** | The interval for between the values |
