@@ -2389,7 +2389,7 @@ wChartSeriesListDTO.getChartProperties().setYearInitialRulerTickAxisX(5);
 ```
 ------
 # Area_Line Chart<br>
-The "AREA_LINE" type chart uses two series: area and line within the same rendering.This makes it possible for the user to visualize a set of data graphically.</br>
+The "AREA_LINE" type chart uses two types of charts together: area type and line type within the same rendering.This makes it possible for the user to visualize a set of data graphically.</br>
 
 >[!NOTE]
 >To use the 'AREA_LINE_' type chart, you need to make some configurations:<br>
@@ -2398,15 +2398,15 @@ The "AREA_LINE" type chart uses two series: area and line within the same render
 To set the series of the Chart via the handler, the 'addAllSeries' function was created, so you must send all the series at once, so that the necessary calculations can be made on the part of the Framework, referring to all the series of AREA and LINE . *Use the same way as the 'addSeries' method, but using addAllSeries.<br><br>
 
 >[!IMPORTANT]
->Series AREA => remembering that the series of type area will be used only to assemble the back part, the backgound of the graphic, just for visual effects.<br>When setting area-type series, you need to set them to the end of your graph, so that the background is 100% filled with color.
-Series LINE => the series of the line type will be the graph that will have the reference points meeting between the X, Y axes that when passing the mouse over will present the tooltip with the complementary information..
+>Series AREA => remembering that the series of type area will be used only to assemble the back part, the backgound of the chart, just for visual effects.<br>When setting area-type series, it is necessary to pass the graphs in the order from smallest to largest.
+Series LINE => the series of the line type will be the chart that will have the reference points meeting between the X, Y axes that when passing the mouse over will present the tooltip with the complementary information..
 
 ### addAllSeries
-This method is use just for area-line charts<br>
+This method is use just for area-line charts.<br>
 This method adds all the news series to the area-line.
 
 #### :bookmark_tabs: Parameters
-**data:** _(Object)_ All graph series, both areas and lines. <br>
+**data:** _(Object)_ All chart series, both areas and lines. <br>
 
 #### :pencil2: Examples: <br>
 ```javascript
@@ -2422,7 +2422,7 @@ export default class VsClinicalNotearyGraphCommons {
   atePacGCExternalAccess;
 
  allSeries = []
-  addSerieFilter(handler, serie, serieCode) {
+  addSerieLineChart(handler, serie, serieCode) {
     allSeries.push(`SERIE_${serieCode}`,
       serie.NAME,
       serie.COLOR,
@@ -2430,7 +2430,7 @@ export default class VsClinicalNotearyGraphCommons {
       serie.VALUES.filter(({ Y }) => Y > 0).map(value => value.X),
       'line');
   }
-  addSerieSort(handler, serie, serieCode) {
+  addSerieAreaChart(handler, serie, serieCode) {
     allSeries.push(`SERIE_${serieCode}`,
       serie.NAME,
       serie.COLOR,
@@ -2442,9 +2442,9 @@ export default class VsClinicalNotearyGraphCommons {
   addSerieChart(handler, chart) {
     chart.SERIES.forEach((serie, i) => {
       if (serie.IS_PATIENT) {
-        this.addSerieFilter(handler, serie, i);
+        this.addSerieLineChart(handler, serie, i);
       } else {
-        this.addSerieSort(handler, serie, i);
+        this.addSerieAreaChart(handler, serie, i);
       }
     });
 handler.addAllSeries(allSeries)
@@ -2503,16 +2503,15 @@ _Setting X-axis values to use as a ruler_<br>
 //61 = 5 years + 1 month
 //62 = 5 years + two months ... so on...
 'x', [60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96])
-// So in your query that comes from the database, you must come with the values, according to the months.
-this.atePacGCService.executeAction('getVsClinicalNotearyGraph', params).then(chart => {
-        this.setHeigthForGraphs(item, length);
-        handler.setAxesTitle({
-          y: chart.Y_NAME,
-          x: chart.X_NAME
-        });
-        this.addSerieChart(handler, chart);
-      });
+// Therefore, when you define the X-axis information, take this into account.
 
+allSeries.push(`SERIE_${serieCode}`,
+      serie.NAME,
+      serie.COLOR,
+      serie.VALUES.sort((a, b) => a.X > b.X ? 1 : -1).map(value => value.Y),
+      serie.VALUES.sort((a, b) => a.X > b.X ? 1 : -1).map(value => value.X), // X axis value settings
+      'area');
+  
 ```
 
 >[!IMPORTANT]
