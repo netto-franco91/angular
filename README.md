@@ -2391,27 +2391,46 @@ This method adds all the news series to the area-line.
 
 #### :pencil2: Examples: <br>
 ```javascript
-const data: {
-        columns: [
-            ['data1', 900, 900, 900, 900, 900, 900],
-            ['data2', 200, 130, 90, 240, 130, 220],
-            ['data3', 300, 200, 160, 400, 250, 250],
-            ['data4', 130, 120, 150, 140, 160, 150],
-            ['data5', 100, 100, 100, 100, 100, 100],
-        ],
-        type: 'area_line',
-        types: {
-            data1: 'area',
-            data2: 'area',
-            data3: 'line',
-            data4: 'area',
-            data5:'area'
-        },
-        groups: [
-            ['data1','data2', 'data3', 'data4']
-        ]
-    }
-handler.addAllSerie(data);
+import { Singleton, Inject } from '@philips/odin-ext';
+
+@Singleton({ domain: 'atePac/AtePacGC' })
+export default class VsClinicalNotearyGraphCommons {
+
+  @Inject('AtePacGCService')
+  atePacGCService;
+
+  @Inject('AtePacGCExternalAccess')
+  atePacGCExternalAccess;
+
+ allSeries = []
+  addSerieFilter(handler, serie, serieCode) {
+    allSeries.push(`SERIE_${serieCode}`,
+      serie.NAME,
+      serie.COLOR,
+      serie.VALUES.filter(({ Y }) => Y > 0).map(value => value.Y),
+      serie.VALUES.filter(({ Y }) => Y > 0).map(value => value.X),
+      'line');
+  }
+  addSerieSort(handler, serie, serieCode) {
+    allSeries.push(`SERIE_${serieCode}`,
+      serie.NAME,
+      serie.COLOR,
+      serie.VALUES.sort((a, b) => a.X > b.X ? 1 : -1).map(value => value.Y),
+      serie.VALUES.sort((a, b) => a.X > b.X ? 1 : -1).map(value => value.X),
+      'area');
+  }
+
+  addSerieChart(handler, chart) {
+    chart.SERIES.forEach((serie, i) => {
+      if (serie.IS_PATIENT) {
+        this.addSerieFilter(handler, serie, i);
+      } else {
+        this.addSerieSort(handler, serie, i);
+      }
+    });
+handler.addAllSeries(allSeries)
+  }
+
 ```
 
 <b><summary> **Set chart type to AREA_LINE in Chart settings**</sumary></b>
