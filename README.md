@@ -1005,7 +1005,7 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
   ##### Example:
   ```javascript
-   //In this exemple we have the axis (y), the inicial value (3), the final value (20) and the interval for between the values (3).
+   //In this exemple we have the axis, the inicial value, the final value and the interval for between the values.
    handler.setAxisInterval('y', 3, 20, 3)
   ```
 
