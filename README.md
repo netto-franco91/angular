@@ -2483,7 +2483,17 @@ _Setting X-axis values to use as a ruler_<br>
 //start in 60 because 5 x 12 = 60 meses
 //61 = 5 years + 1 month
 //62 = 5 years + two months ... so on...
-   handler.setAxisValues('y', [], 'x', [60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96])
+'x', [60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96])
+// So in your query that comes from the database, you must come with the values, according to the months.
+this.atePacGCService.executeAction('getVsClinicalNotearyGraph', params).then(chart => {
+        this.setHeigthForGraphs(item, length);
+        handler.setAxesTitle({
+          y: chart.Y_NAME,
+          x: chart.X_NAME
+        });
+        this.addSerieChart(handler, chart);
+      });
+
 ```
 
 >[!IMPORTANT]
