@@ -243,6 +243,7 @@ export default class StackedBarChartTest extends WChart {
 - [addLabelLastValue](#addLabelLastValue)
 - [setRangeAxes](#setRangeAxes)
 - [setAxisValues](#setAxisValues)
+- [setAxisInterval](#setAxisInterval)
   
 ### showDonutCenterText
 ----
@@ -988,6 +989,24 @@ handler.setTooltipStyle(wChartTooltipConstants.REAL);
 
    //If you want to set values ​​just for the X-axis, you must pass the Y-axis parameter [].
    handler.setAxisValues('y', [], 'x', [3, 6, 9, 12, 15, 18, 21])
+  ```
+
+  * #### setAxisInterval
+  Set axes interval to the values.<br> 
+  In this way, you can determine the interval you want between the values.<br>
+  You need determinate the inicial value, and the final value for each axis.
+
+  | Params | Type | Description |
+  | --- | --- | --- |
+  | axis | **String** | The axis: **y** and **x** |
+  | values | **Number** | The initial value |
+  | values | **Number** | The final value |
+  | values | **Number** | The interval for between the values |
+
+  ##### Example:
+  ```javascript
+   //In this exemple we have the axis (y), the inicial value (3), the final value (20) and the interval for between the values (3).
+   handler.setAxisInterval('y', 3, 20, 3)
   ```
 
   * #### setSeriesColor
